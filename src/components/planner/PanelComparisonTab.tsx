@@ -117,7 +117,7 @@ export function PanelComparisonTab() {
 
       </div>
       
-      <div className="mt-4 p-4 rounded-xl border bg-muted flex items-center justify-between">
+      <div className="mt-4 p-4 rounded-xl border bg-muted flex flex-col sm:flex-row gap-3 items-start sm:items-center">
         <div>
           <h4 className="font-semibold text-sm">Analytical Summary</h4>
           <p className="text-xs text-muted-foreground mt-1">Panel P-12 exhibits significantly higher deformation rates and alert frequencies compared to P-11, despite similar active extraction status.</p>

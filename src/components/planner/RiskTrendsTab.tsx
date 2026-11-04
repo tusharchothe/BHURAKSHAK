@@ -34,7 +34,7 @@ export function RiskTrendsTab() {
           </ResponsiveContainer>
         </div>
         
-        <div className="mt-6 pt-4 border-t flex items-center justify-between">
+        <div className="mt-6 pt-4 border-t flex flex-col sm:flex-row gap-3 items-start sm:items-center">
           <p className="text-sm text-muted-foreground max-w-2xl">
             <TrendingUp className="inline size-4 mr-2" />
             Risk score has steadily climbed over the last 14 days, correlating with an accelerating deformation rate in the northwest quadrant of P-12.

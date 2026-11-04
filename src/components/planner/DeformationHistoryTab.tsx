@@ -8,12 +8,12 @@ export function DeformationHistoryTab() {
 
   return (
     <div className="flex flex-col gap-6 h-[calc(100vh-8rem)] overflow-auto pb-8">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row gap-3 items-start sm:items-center">
         <div>
           <h2 className="text-xl font-bold text-foreground">Long-Term Deformation History</h2>
           <p className="text-sm text-muted-foreground mt-1">Comparing strata subsidence across active extraction zones</p>
         </div>
-        <div className="flex items-center gap-2 bg-muted p-1 rounded-lg">
+        <div className="flex items-center gap-2 bg-muted p-1 rounded-lg sm:ml-auto">
           {["7D", "30D", "3M", "6M", "1Y"].map(range => (
             <button
               key={range}
@@ -61,7 +61,7 @@ export function DeformationHistoryTab() {
           </ResponsiveContainer>
         </div>
         
-        <div className="mt-6 pt-4 border-t grid grid-cols-3 gap-4 text-sm">
+        <div className="mt-6 pt-4 border-t grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
           <div>
             <span className="text-muted-foreground text-xs uppercase tracking-wider block mb-1">Max Subsidence (30D)</span>
             <span className="font-mono font-bold text-lg">45.2 mm</span> <span className="text-muted-foreground">in P-12</span>

@@ -43,12 +43,12 @@ export function NationalOverviewTab() {
 
   return (
     <div className="space-y-6 h-[calc(100vh-8rem)] overflow-auto pb-8">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row gap-3 items-start sm:items-center">
         <div>
           <h2 className="text-xl font-bold text-foreground">National Portfolio Overview</h2>
           <p className="text-sm text-muted-foreground mt-1">Multi-mine monitoring visibility across coalfields.</p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-2 sm:ml-auto">
           <button className="flex items-center gap-2 bg-muted hover:bg-muted/80 px-3 py-1.5 rounded text-sm font-semibold transition-colors">
             <Filter className="size-4" /> Filter by State
           </button>
@@ -65,7 +65,7 @@ export function NationalOverviewTab() {
         <KpiCard label="Offline Systems" value={regulatorKpis.offlineSystems} icon={WifiOff} />
       </div>
 
-      <div className="rounded-xl border bg-card shadow-sm overflow-hidden h-[500px] relative">
+      <div className="rounded-xl border bg-card shadow-sm overflow-hidden h-[280px] sm:h-[500px] relative">
         <Map
           mapboxAccessToken={TOKEN}
           initialViewState={INITIAL_VIEW_STATE}
@@ -111,7 +111,7 @@ export function NationalOverviewTab() {
           </div>
         )}
 
-        <div className="absolute bottom-6 right-6 bg-background/90 backdrop-blur border p-3 rounded-lg shadow-sm text-xs">
+        <div className="absolute bottom-6 right-6 bg-background/90 backdrop-blur border p-3 rounded-lg shadow-sm text-xs max-h-40 overflow-y-auto sm:max-h-none">
           <h4 className="font-semibold mb-2 uppercase tracking-wider">Application Status</h4>
           <div className="space-y-2">
             <div className="flex items-center gap-2"><div className="size-3 rounded-full bg-blue-500 border border-black" /> Monitoring Available</div>

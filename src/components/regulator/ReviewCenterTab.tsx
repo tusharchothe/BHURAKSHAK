@@ -117,7 +117,7 @@ export function ReviewCenterTab() {
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="border rounded-lg p-4">
                 <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground block mb-2">Automated Evidence</span>
                 <div className="flex items-start gap-2 text-sm bg-muted/50 p-3 rounded">

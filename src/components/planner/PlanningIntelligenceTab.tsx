@@ -4,7 +4,7 @@ import { plannerScenarios } from "@/data/plannerMocks";
 export function PlanningIntelligenceTab() {
   return (
     <div className="flex flex-col gap-6 h-[calc(100vh-8rem)] overflow-auto pb-8">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row gap-3 items-start sm:items-center">
         <div>
           <h2 className="text-xl font-bold text-foreground">Planning Intelligence</h2>
           <p className="text-sm text-muted-foreground mt-1">Scenario-oriented insights based on historical baselines and risk trends</p>
@@ -39,7 +39,7 @@ export function PlanningIntelligenceTab() {
                 </span>
               </div>
               
-              <div className="space-y-4 ml-14">
+              <div className="space-y-4 sm:ml-14 ml-0">
                 <div>
                   <h4 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-1">Observation</h4>
                   <p className="text-sm text-foreground/90 leading-relaxed border-l-2 border-muted pl-3 py-1">

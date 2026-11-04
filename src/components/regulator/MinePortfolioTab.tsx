@@ -16,12 +16,12 @@ export function MinePortfolioTab() {
 
   return (
     <div className="flex flex-col gap-6 h-[calc(100vh-8rem)] overflow-auto pb-8">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row gap-3 items-start sm:items-center">
         <div>
           <h2 className="text-xl font-bold text-foreground">Mine Portfolio</h2>
           <p className="text-sm text-muted-foreground mt-1">Institutional overview of all registered monitoring sites.</p>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 sm:ml-auto">
           <div className="bg-background border rounded-lg shadow-sm flex items-center px-3 py-1.5 w-64">
             <Search className="size-4 text-muted-foreground mr-2" />
             <input type="text" placeholder="Search mines or companies..." className="bg-transparent border-none outline-none text-sm w-full" />
