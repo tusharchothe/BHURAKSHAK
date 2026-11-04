@@ -153,7 +153,7 @@ export function AlertCenterTab() {
             </div>
           </div>
 
-          <div className="mt-auto border-t pt-6 flex gap-3">
+          <div className="mt-auto border-t pt-6 flex flex-wrap gap-3">
             <button className="px-4 py-2 bg-muted hover:bg-muted/80 rounded-md text-sm font-semibold flex items-center gap-2 transition-colors">
               <Map className="size-4" /> View on Map
             </button>

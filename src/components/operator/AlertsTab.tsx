@@ -80,7 +80,7 @@ export function AlertsTab() {
 
             <div>
               <h4 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-4">Corroborating Evidence Matrix</h4>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 
                 <div className="border rounded-lg p-4 bg-card">
                   <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground block mb-2 flex items-center gap-2">

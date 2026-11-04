@@ -9,6 +9,7 @@ export function ManagementTab() {
       </div>
 
       <div className="rounded-xl border bg-card shadow-sm overflow-hidden">
+        <div className="overflow-x-auto">
         <table className="w-full caption-bottom text-sm">
           <thead className="[&_tr]:border-b bg-muted/50">
             <tr className="text-left text-muted-foreground">
@@ -55,6 +56,7 @@ export function ManagementTab() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
     </div>
   );

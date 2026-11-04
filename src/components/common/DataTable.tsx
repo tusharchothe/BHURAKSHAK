@@ -26,6 +26,7 @@ interface DataTableProps<T> {
 
 export function DataTable<T>({ columns, rows, rowKey, empty = "No records", className }: DataTableProps<T>) {
   return (
+    <div className="overflow-x-auto w-full">
     <div className={cn("overflow-hidden rounded-md border bg-card", className)}>
       <Table>
         <TableHeader>
@@ -57,6 +58,7 @@ export function DataTable<T>({ columns, rows, rowKey, empty = "No records", clas
           )}
         </TableBody>
       </Table>
+    </div>
     </div>
   );
 }
