@@ -4,6 +4,7 @@ import { demoSystemStatus, getRole } from "@/data";
 import { Header } from "./Header";
 import { Sidebar, type NavItem } from "./Sidebar";
 import { FloatingAIChat } from "./FloatingAIChat";
+import { BottomNav } from "./BottomNav";
 import { motion, AnimatePresence } from "framer-motion";
 
 export function DashboardShell({
@@ -41,7 +42,7 @@ export function DashboardShell({
         <main className="min-w-0 flex-1 flex flex-col h-[calc(100vh-3.5rem)] overflow-hidden">
           {/* Page header bar */}
           <div
-            className="flex flex-wrap items-center gap-3 bg-white border-b border-gray-200 px-6 py-4 shadow-sm z-10 relative"
+            className="flex flex-wrap items-center gap-3 bg-white border-b border-gray-200 px-3 sm:px-6 py-3 sm:py-4 shadow-sm z-10 relative"
             style={{ borderLeft: `4px solid ${accent}` }}
           >
             <div>
@@ -58,7 +59,7 @@ export function DashboardShell({
             </div>
           </div>
 
-          <div className="flex-1 overflow-auto p-6">
+          <div className="flex-1 overflow-auto p-3 sm:p-6 pb-20 md:pb-6">
             <AnimatePresence mode="wait">
               <motion.div
                 key={activeTab || title}
@@ -76,6 +77,13 @@ export function DashboardShell({
 
       {/* Floating AI chat — visible on every page */}
       <FloatingAIChat />
+      <BottomNav
+        role={role}
+        items={nav}
+        activeTab={activeTab}
+        onTabChange={onTabChange}
+        accent={accent}
+      />
     </div>
   );
 }

@@ -25,7 +25,7 @@ export function Header({
           </span>
           <span className="leading-tight">
             <span className="block font-bold text-sm tracking-[0.16em] text-white">BHURAKSHAK</span>
-            <span className="block text-[10px] uppercase tracking-[0.12em] text-white/60">
+            <span className="block text-[10px] uppercase tracking-[0.12em] text-white/60 hidden sm:block">
               Mine Safety Sentinel
             </span>
           </span>
