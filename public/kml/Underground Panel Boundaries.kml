@@ -1,0 +1,3702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:ex="http://earth.google.com/kml/ext">
+<Document id="document">
+	<ex:extension>base64;CooBCoEBCn8KAggBEnkKdwokCiAKAwjQDxoHCNLtZRD_ASEAAAAAAADwPykAAAAAAAAAABgAEg8KCAitgO8HEP8BEKAfGAAaGgoHCP___wcQQBIICK2A7wcQ_wEYoB8gACgAIgkIARIFCP___wcqFwgBEggI____BxD_ARkAAAAAAADwPyAAEgQIARAA</ex:extension>
+	<name>Underground Panel Boundaries</name>
+	<gx:CascadingStyle kml:id="__managed_style_0DC6BB5E51421CECD1C4_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0DC6BB5E51421CECD1C4_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0DC6BB5E51421CECD1C4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_0E7370A7CC421CEC576F_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0E7370A7CC421CEC576F_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0E7370A7CC421CEC576F">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0E7370A7CC421CEC576F_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0E7370A7CC421CEC576F_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="04F350933A421CECD17B">
+		<ex:extension>base64;GgA</ex:extension>
+		<name>Underground Panel Boundaries</name>
+		<styleUrl>#__managed_style_0E7370A7CC421CEC576F</styleUrl>
+		<Placemark id="170EB2C7DE421CECD17B">
+			<name>Blue segment 1</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.33830962099999,23.70797941,0 86.33687257,23.705514648,0 86.336356705,23.706067962,0 86.33657779000001,23.706470372,0 86.336909417,23.706218866,0 86.338088536,23.708180615,0 86.33830962099999,23.70797941,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="2FAF856545421CECD17B">
+			<name>Blue segment 2</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.338162231,23.708331519,0 86.33830962099999,23.708482423,0 86.338457011,23.70838182,0 86.33849385800001,23.708230917,0 86.338346469,23.708080013,0 86.338162231,23.708331519,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="38BE3B6A37421CECD17B">
+			<name>Blue segment 3</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.337904299,23.708935134,0 86.338162231,23.708633327,0 86.33720419700001,23.706973385,0 86.337056807,23.707023686,0 86.33713050199999,23.706973385,0 86.337093655,23.70677218000001,0 86.336835722,23.706470372,0 86.336540943,23.706822481,0 86.337793757,23.708935134,0 86.337904299,23.708935134,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="40714FEE20421CECD17B">
+			<name>Blue segment 4</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.338567553,23.709035737,0 86.338788638,23.708834532,0 86.338604401,23.708532724,0 86.33838331600001,23.708683628,0 86.338567553,23.709035737,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="500E0D9D10421CECD17B">
+			<name>Blue segment 5</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.348921692,23.710142365,0 86.34921647199999,23.709689653,0 86.34855321800001,23.708633327,0 86.34829528500001,23.70838182,0 86.34800050600001,23.708784231,0 86.34873745500001,23.709991461,0 86.348921692,23.710142365,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="6E786BC717421CECD17B">
+			<name>Blue segment 6</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34895854,23.71034357,0 86.349142777,23.710544775,0 86.349474405,23.710092064,0 86.34929016700001,23.70994116,0 86.34895854,23.71034357,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="737D890E85421CECD17B">
+			<name>Blue segment 7</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.348221591,23.710896884,0 86.34873745500001,23.710242967,0 86.347816268,23.708884833,0 86.347337251,23.709488448,0 86.348221591,23.710896884,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="8B4B92ECDC421CECD17B">
+			<name>Blue segment 8</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.33311412800001,23.710595076,0 86.333335213,23.710896884,0 86.336651485,23.707275193,0 86.3364304,23.706973385,0 86.333150975,23.710444172,0 86.33311412800001,23.710595076,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="929B04C50F421CECD17B">
+			<name>Blue segment 9</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34829528500001,23.711047788,0 86.348405828,23.711098089,0 86.34866375999999,23.710695679,0 86.348590065,23.710645378,0 86.34829528500001,23.711047788,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="A5CB472F06421CECD17B">
+			<name>Blue segment 10</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34855321800001,23.7115508,0 86.348847998,23.711248993,0 86.348700608,23.71094718499999,0 86.348405828,23.711299294,0 86.34855321800001,23.7115508,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="B8BE536481421CECD17B">
+			<name>Blue segment 11</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.339451893,23.711601102,0 86.339709825,23.711248993,0 86.339451893,23.710846583,0 86.33937819800001,23.710896884,0 86.339415045,23.71074598,0 86.338530706,23.709236942,0 86.338235926,23.709639352,0 86.339157113,23.711299294,0 86.339451893,23.711601102,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="CA7687734E421CECD17B">
+			<name>Blue segment 12</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34910592999999,23.712456223,0 86.349363862,23.712204717,0 86.34940071,23.712053813,0 86.349032235,23.711450198,0 86.348884845,23.71134959500001,0 86.348590065,23.711651403,0 86.34910592999999,23.712456223,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="D86713CD9B421CECD17B">
+			<name>Blue segment 13</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.33433009399999,23.712607127,0 86.33768321399999,23.709086038,0 86.33676202700001,23.707476398,0 86.333408908,23.711047788,0 86.33433009399999,23.712607127,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="E93C608E64421CECD17B">
+			<name>Blue segment 14</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.351206236,23.712808332,0 86.349548099,23.710293269,0 86.34921647199999,23.71074598,0 86.35083776099999,23.713261044,0 86.351206236,23.712808332,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="F513C24EDA421CECD17B">
+			<name>Blue segment 15</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34122057099999,23.71351255,0 86.341367961,23.713311345,0 86.341257419,23.713009537,0 86.338899181,23.708985436,0 86.338678096,23.709186641,0 86.339083418,23.70994116,0 86.339562435,23.710645378,0 86.339599283,23.710846583,0 86.340999486,23.713261044,0 86.34122057099999,23.71351255,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1081C597C29421CECD17B">
+			<name>Blue segment 16</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.341589046,23.71416646600001,0 86.341699588,23.713764056,0 86.341515351,23.71351255,0 86.34129426600001,23.713764056,0 86.341589046,23.71416646600001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="11BF110ADA8421CECD17B">
+			<name>Blue segment 17</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.358170407,23.715474299,0 86.358981052,23.714619178,0 86.358538882,23.713814357,0 86.35772823800001,23.714619178,0 86.358170407,23.715474299,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="12549334B6A421CECD17B">
+			<name>Blue segment 18</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35231166,23.715474299,0 86.35264328700001,23.715071889,0 86.351685253,23.713562851,0 86.35157470999999,23.713663454,0 86.35142732,23.713613152,0 86.351537863,23.713311345,0 86.35127993099999,23.712959236,0 86.350948303,23.713361646,0 86.350985151,23.71351255,0 86.35231166,23.715474299,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1329770CBD1421CECD17B">
+			<name>Blue segment 19</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35400664300001,23.715574902,0 86.354338271,23.715172492,0 86.354043491,23.714669479,0 86.353675016,23.715071889,0 86.35400664300001,23.715574902,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="14445119AF6421CECD17B">
+			<name>Blue segment 20</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.357654543,23.715625203,0 86.35791247500001,23.715323396,0 86.35769139,23.714870684,0 86.357396611,23.71512219,0 86.357654543,23.715625203,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1574A858E9B421CECD17B">
+			<name>Blue segment 21</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34269447,23.715725806,0 86.342768165,23.715574902,0 86.34177328299999,23.713965261,0 86.34166274099999,23.714367671,0 86.342510233,23.715826408,0 86.34269447,23.715725806,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="16AEF0445E9421CECD17B">
+			<name>Blue segment 22</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.343247182,23.715826408,0 86.343505114,23.715474299,0 86.342325995,23.713462249,0 86.341957521,23.713864659,0 86.341994368,23.714015563,0 86.343099792,23.71587671,0 86.343247182,23.715826408,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1786337D2CF421CECD17B">
+			<name>Blue segment 23</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35264328700001,23.715977312,0 86.352938067,23.715574902,0 86.352716982,23.715222793,0 86.352422202,23.715574902,0 86.35264328700001,23.715977312,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="18399A22E2E421CECD17B">
+			<name>Blue segment 24</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.357212373,23.716027613,0 86.357507153,23.715725806,0 86.357470306,23.71552460099999,0 86.357249221,23.715222793,0 86.356954441,23.71552460099999,0 86.357212373,23.716027613,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="19B7F88813D421CECD17B">
+			<name>Blue segment 25</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.342141758,23.716329421,0 86.34239968999999,23.716077915,0 86.342436538,23.71592701100001,0 86.34147850399999,23.71431737,0 86.34122057099999,23.714770082,0 86.342141758,23.716329421,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1AAA937132C421CECD17B">
+			<name>Blue segment 26</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34339457199999,23.716379722,0 86.343763047,23.715977312,0 86.343615657,23.715725806,0 86.343247182,23.716027613,0 86.34339457199999,23.716379722,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1BAF4CC0209421CECD17B">
+			<name>Blue segment 27</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35673335600001,23.716480325,0 86.35710183099999,23.716128216,0 86.356843899,23.715625203,0 86.356475424,23.715977312,0 86.35673335600001,23.716480325,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1C9A35E53C1421CECD17B">
+			<name>Blue segment 28</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.33141914399999,23.716329421,0 86.331529687,23.716480325,0 86.33687257,23.710796281,0 86.338346469,23.709337545,0 86.338457011,23.709086038,0 86.338272774,23.708784231,0 86.338014841,23.708985436,0 86.331382297,23.716077915,0 86.33141914399999,23.716329421,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1DC96463989421CECD17B">
+			<name>Blue segment 29</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.353785559,23.71668153,0 86.35426457600001,23.716128216,0 86.354043491,23.715826408,0 86.353601321,23.716379722,0 86.353785559,23.71668153,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1EAB909BFD2421CECD17B">
+			<name>Blue segment 30</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35301176199999,23.716580927,0 86.35308545700001,23.71668153,0 86.35319599899999,23.716631229,0 86.353159152,23.716480325,0 86.35301176199999,23.716580927,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1F0CD3C4593421CECD17B">
+			<name>Blue segment 31</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.356217492,23.716983337,0 86.356622814,23.716580927,0 86.356328034,23.716077915,0 86.355959559,23.716480325,0 86.356217492,23.716983337,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="20A8854A252421CECD17B">
+			<name>Blue segment 32</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.356070102,23.716983337,0 86.35599640700001,23.71668153,0 86.35592271199999,23.716832434,0 86.356070102,23.716983337,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="21DFE598E47421CECD17B">
+			<name>Blue segment 33</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.353490779,23.717234844,0 86.353564474,23.717033639,0 86.35319599899999,23.71668153,0 86.35338023600001,23.717184543,0 86.353490779,23.717234844,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="22241119747421CECD17B">
+			<name>Blue segment 34</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.343320877,23.717234844,0 86.343505114,23.716983337,0 86.343320877,23.716530626,0 86.342878707,23.715776107,0 86.342620775,23.715977312,0 86.342915555,23.716530626,0 86.343062945,23.716379722,0 86.34295240199999,23.716580927,0 86.343320877,23.717234844,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="2395A8BB41D421CECD17B">
+			<name>Blue segment 35</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.347263556,23.717436049,0 86.350690371,23.713411947,0 86.350063964,23.712355621,0 86.34656345400001,23.71627912,0 86.347263556,23.717436049,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="24CCF0967BB421CECD17B">
+			<name>Blue segment 36</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.343505114,23.717586953,0 86.343726199,23.717385748,0 86.343615657,23.717134241,0 86.343357725,23.717285145,0 86.343505114,23.717586953,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="25F867EA001421CECD17B">
+			<name>Blue segment 37</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.354411966,23.717687555,0 86.35478044,23.717285145,0 86.354338271,23.716731831,0 86.354043491,23.71708394,0 86.354411966,23.717687555,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="262C1E05706421CECD17B">
+			<name>Blue segment 38</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35319599899999,23.717687555,0 86.353343389,23.717335446,0 86.35127993099999,23.71416646600001,0 86.351132541,23.714065864,0 86.35102199799999,23.71431737,0 86.352864372,23.717285145,0 86.35319599899999,23.717687555,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="272AA922012421CECD17B">
+			<name>Blue segment 39</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.347042472,23.717687555,0 86.347153014,23.71748635,0 86.346452912,23.716430023,0 86.346268675,23.716580927,0 86.34630552199999,23.716731831,0 86.347042472,23.717687555,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="2831E92ECB9421CECD17B">
+			<name>Blue segment 40</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35010081199999,23.717737856,0 86.35046928600001,23.717436049,0 86.351758948,23.715826408,0 86.35142732,23.715273094,0 86.349769184,23.717234844,0 86.35010081199999,23.717737856,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="29AAB861A97421CECD17B">
+			<name>Blue segment 41</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34420521600001,23.717788158,0 86.348995387,23.712556826,0 86.348258438,23.711450198,0 86.34402097900001,23.716178517,0 86.34383674199999,23.716128216,0 86.34346826700001,23.716530626,0 86.34420521600001,23.717788158,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="2AEF9A2E521421CECD17B">
+			<name>Blue segment 42</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.354154033,23.717939062,0 86.354301423,23.717737856,0 86.353453931,23.716329421,0 86.35393294799999,23.715675504,0 86.353601321,23.715222793,0 86.353122304,23.715826408,0 86.353048609,23.715725806,0 86.35275382899999,23.716178517,0 86.35301176199999,23.716480325,0 86.35319599899999,23.716027613,0 86.35326969400001,23.716027613,0 86.353343389,23.716228818,0 86.35319599899999,23.716430023,0 86.35374871099999,23.71708394,0 86.353564474,23.717436049,0 86.353711864,23.717687555,0 86.353785559,23.717536651,0 86.353896101,23.717536651,0 86.35400664300001,23.717838459,0 86.354154033,23.717939062,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="2BAA6DBA310421CECD17B">
+			<name>Blue segment 43</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.332450873,23.718039664,0 86.338972876,23.711198692,0 86.338162231,23.709790256,0 86.337056807,23.710846583,0 86.331640229,23.716580927,0 86.332450873,23.718039664,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="2C48593095C421CECD17B">
+			<name>Blue segment 44</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.344499996,23.71829117,0 86.349953422,23.712204717,0 86.348884845,23.710444172,0 86.348700608,23.710645378,0 86.349474405,23.711852608,0 86.349548099,23.712204717,0 86.344315759,23.717939062,0 86.344499996,23.71829117,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="2D55AEBA927421CECD17B">
+			<name>Blue segment 45</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.350137659,23.718140267,0 86.35028504899999,23.718341472,0 86.351980032,23.716178517,0 86.351943185,23.715977312,0 86.35183264299999,23.71592701100001,0 86.350137659,23.718140267,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="2E1ED6AE7BC421CECD17B">
+			<name>Blue segment 46</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35426457600001,23.718442074,0 86.354301423,23.718341472,0 86.354154033,23.718140267,0 86.354080338,23.718240869,0 86.35426457600001,23.718442074,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="2F8144A3184421CECD17B">
+			<name>Blue segment 47</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.350506134,23.71829117,0 86.35065352399999,23.718442074,0 86.352053727,23.716731831,0 86.35220111700001,23.716430023,0 86.352053727,23.71627912,0 86.350579829,23.718089965,0 86.350506134,23.71829117,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="30E8426518D421CECD17B">
+			<name>Blue segment 48</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.343357725,23.718442074,0 86.343652504,23.718089965,0 86.34273131800001,23.716530626,0 86.342436538,23.716882735,0 86.343357725,23.718442074,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="313894B1D4D421CECD17B">
+			<name>Blue segment 49</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35039559099999,23.718492375,0 86.350321896,23.71829117,0 86.35028504899999,23.718391773,0 86.35039559099999,23.718492375,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="32B4B134FA9421CECD17B">
+			<name>Blue segment 50</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.354411966,23.718743882,0 86.354706745,23.718442074,0 86.35463305,23.71829117,0 86.35481728800001,23.718341472,0 86.35599640700001,23.717184543,0 86.35573847400001,23.71668153,0 86.354522508,23.717737856,0 86.354522508,23.718089965,0 86.35437511799999,23.71788876,0 86.35419088099999,23.718089965,0 86.354338271,23.718391773,0 86.35426457600001,23.718492375,0 86.354411966,23.718743882,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="338F928CED8421CECD17B">
+			<name>Blue segment 51</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.344242064,23.718743882,0 86.344426301,23.718492375,0 86.34383674199999,23.71748635,0 86.343615657,23.717687555,0 86.343652504,23.71788876,0 86.34391043700001,23.718240869,0 86.344094674,23.718693581,0 86.344242064,23.718743882,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="34353449E34421CECD17B">
+			<name>Blue segment 52</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.350764066,23.719095991,0 86.352495897,23.716983337,0 86.35231166,23.716631229,0 86.35102199799999,23.718240869,0 86.350506134,23.718693581,0 86.350764066,23.719095991,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="35A684C84CA421CECD17B">
+			<name>Blue segment 53</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.354669898,23.719246895,0 86.35500152500001,23.718995388,0 86.35478044,23.718592978,0 86.35448565999999,23.718844484,0 86.354669898,23.719246895,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="369115294F7421CECD17B">
+			<name>Blue segment 54</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34538433500001,23.719699606,0 86.346895082,23.717838459,0 86.34619498000001,23.716731831,0 86.344610538,23.718492375,0 86.34538433500001,23.719699606,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="37C601B7EBF421CECD17B">
+			<name>Blue segment 55</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35135362600001,23.719749907,0 86.352974914,23.717788158,0 86.352606439,23.717134241,0 86.350985151,23.719095991,0 86.35135362600001,23.719749907,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="387E5D79A55421CECD17B">
+			<name>Blue segment 56</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35522261,23.720051715,0 86.355480542,23.719800208,0 86.35500152500001,23.718995388,0 86.35478044,23.719397798,0 86.35522261,23.720051715,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="39A3D6A646B421CECD17B">
+			<name>Blue segment 57</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34538433500001,23.720001414,0 86.345679115,23.720403824,0 86.34582650500001,23.720303221,0 86.351058846,23.71391496,0 86.35083776099999,23.71351255,0 86.34604759,23.719095991,0 86.345421183,23.71985051,0 86.34538433500001,23.720001414,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="3A969602CAB421CECD17B">
+			<name>Blue segment 58</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35142732,23.720051715,0 86.35157470999999,23.720454125,0 86.35338023600001,23.718190568,0 86.353490779,23.718240869,0 86.353969796,23.718995388,0 86.354227728,23.718693581,0 86.353417084,23.717536651,0 86.35330654099999,23.717687555,0 86.353232846,23.717637254,0 86.353159152,23.71788876,0 86.351501015,23.71985051,0 86.35142732,23.720051715,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="3BCEABE43FB421CECD17B">
+			<name>Blue segment 59</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35555423700001,23.720554728,0 86.35573847400001,23.720202619,0 86.355480542,23.719900811,0 86.355259457,23.720152317,0 86.35555423700001,23.720554728,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="3CF985BB0DC421CECD17B">
+			<name>Blue segment 60</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.3459002,23.720806234,0 86.34604759,23.720906836,0 86.351095693,23.714669479,0 86.350874608,23.714417973,0 86.3459002,23.720403824,0 86.345789658,23.720554728,0 86.3459002,23.720806234,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="3DF2C51350A421CECD17B">
+			<name>Blue segment 61</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.352237965,23.721158343,0 86.353896101,23.719146292,0 86.353417084,23.718442074,0 86.351795795,23.720454125,0 86.352237965,23.721158343,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="3E07273DA59421CECD17B">
+			<name>Blue segment 62</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.346121285,23.721108041,0 86.346231827,23.721208644,0 86.349511252,23.717285145,0 86.349621794,23.717335446,0 86.349621794,23.717184543,0 86.351316778,23.715071889,0 86.351316778,23.714920985,0 86.351169388,23.714870684,0 86.348590065,23.718089965,0 86.346231827,23.720856535,0 86.346121285,23.721108041,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="3F7D745E932421CECD17B">
+			<name>Blue segment 63</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35231166,23.721359548,0 86.35256959199999,23.721711657,0 86.354227728,23.719649305,0 86.354338271,23.719649305,0 86.35481728800001,23.720353522,0 86.355038372,23.720051715,0 86.35455935500001,23.719397798,0 86.354411966,23.718995388,0 86.35426457600001,23.718894786,0 86.354043491,23.719146292,0 86.354227728,23.7194481,0 86.354117186,23.719498401,0 86.353969796,23.719297196,0 86.35231166,23.721359548,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="40C5816E9E1421CECD17B">
+			<name>Blue segment 64</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.356843899,23.721761958,0 86.35813356,23.720202619,0 86.358317797,23.71985051,0 86.356807051,23.716933036,0 86.356622814,23.716782132,0 86.354890983,23.718492375,0 86.356843899,23.721761958,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="41E316BAAAF421CECD17B">
+			<name>Blue segment 65</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34682138700001,23.722164368,0 86.349990269,23.718140267,0 86.349584947,23.71748635,0 86.34630552199999,23.721359548,0 86.34682138700001,23.722164368,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="42E2086466F421CECD17B">
+			<name>Blue segment 66</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.357212373,23.722415874,0 86.357544,23.722013464,0 86.357544,23.721761958,0 86.357322916,23.72146015,0 86.356954441,23.72186256099999,0 86.357212373,23.722415874,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="43C3481F6E0421CECD17B">
+			<name>Blue segment 67</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35308545700001,23.722516477,0 86.354706745,23.720554728,0 86.354301423,23.71985051,0 86.35264328700001,23.72186256099999,0 86.35308545700001,23.722516477,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="44C44A5CAA5421CECD17B">
+			<name>Blue segment 68</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.356622814,23.722566778,0 86.355701627,23.721007439,0 86.355480542,23.720856535,0 86.35544369500001,23.721007439,0 86.356401729,23.72261708,0 86.356475424,23.722717682,0 86.356622814,23.722566778,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="4563A6949C9421CECD17B">
+			<name>Blue segment 69</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.356991288,23.722818285,0 86.357138678,23.722516477,0 86.355849017,23.720454125,0 86.35573847400001,23.720554728,0 86.35566477899999,23.720755933,0 86.35654911899999,23.722114067,0 86.356880746,23.722818285,0 86.356991288,23.722818285,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="46092CD6281421CECD17B">
+			<name>Blue segment 70</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.347189861,23.722918887,0 86.350432439,23.718945087,0 86.35010081199999,23.718341472,0 86.346858234,23.722365573,0 86.347189861,23.722918887,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="47575D64C0A421CECD17B">
+			<name>Blue segment 71</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.352680134,23.723170393,0 86.35275382899999,23.722969188,0 86.352237965,23.722214669,0 86.352127422,23.722214669,0 86.35209057500001,23.722365573,0 86.352532745,23.723069791,0 86.352680134,23.723170393,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="48AC516799A421CECD17B">
+			<name>Blue segment 72</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.356585966,23.723321297,0 86.35691759300001,23.722868586,0 86.356770204,23.722667381,0 86.356401729,23.722969188,0 86.356585966,23.723321297,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="490555254C1421CECD17B">
+			<name>Blue segment 73</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.356696509,23.7234219,0 86.356770204,23.723472201,0 86.356807051,23.723371599,0 86.356696509,23.7234219,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="4A3817B6B3D421CECD17B">
+			<name>Blue segment 74</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.350358744,23.723924913,0 86.350432439,23.723975214,0 86.350542981,23.723774009,0 86.35046928600001,23.723673406,0 86.35039559099999,23.723723707,0 86.350358744,23.723924913,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="4BD1933F927421CECD17B">
+			<name>Blue segment 75</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.329982093,23.724075816,0 86.33016633,23.72422672,0 86.33912026500001,23.715776107,0 86.340704707,23.71416646600001,0 86.33934135,23.711902909,0 86.33105067,23.720856535,0 86.32931883800001,23.72261708,0 86.329245144,23.722818285,0 86.329982093,23.724075816,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="4CAEA3849F2421CECD17B">
+			<name>Blue segment 76</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.360933968,23.724880637,0 86.35842834,23.72010201599999,0 86.357396611,23.721359548,0 86.357617695,23.721761958,0 86.35772823800001,23.721761958,0 86.358170407,23.721108041,0 86.358391492,23.721007439,0 86.35857573,23.720755933,0 86.358649425,23.720806234,0 86.360786578,23.724780034,0 86.360933968,23.724880637,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="4D7FD38F77E421CECD17B">
+			<name>Blue segment 77</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.354596203,23.724981239,0 86.356217492,23.722969188,0 86.355148915,23.721258945,0 86.353527626,23.723220695,0 86.354596203,23.724981239,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="4E75AF7CFBC421CECD17B">
+			<name>Blue segment 78</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.351132541,23.72503154,0 86.352495897,23.723371599,0 86.351943185,23.722415874,0 86.350506134,23.724126118,0 86.351132541,23.72503154,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="4F134CC7BFF421CECD17B">
+			<name>Blue segment 79</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.340925791,23.72508184200001,0 86.344721081,23.720454125,0 86.343873589,23.719146292,0 86.3400783,23.723774009,0 86.340925791,23.72508184200001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="503598CF60F421CECD17B">
+			<name>Blue segment 80</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.348184743,23.725132143,0 86.34829528500001,23.724981239,0 86.348221591,23.724780034,0 86.347226709,23.723270996,0 86.346858234,23.723673406,0 86.347779421,23.725182444,0 86.347963658,23.724930938,0 86.348184743,23.725132143,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="51676BB46A2421CECD17B">
+			<name>Blue segment 81</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34873745500001,23.725333348,0 86.349363862,23.72462913,0 86.348884845,23.722717682,0 86.351132541,23.719951112,0 86.350579829,23.719045689,0 86.347410946,23.722918887,0 86.34748464099999,23.723069791,0 86.34737409900001,23.723170393,0 86.34873745500001,23.725333348,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="52382B6A957421CECD17B">
+			<name>Blue segment 82</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.349548099,23.725484252,0 86.349695489,23.725232746,0 86.34940071,23.724830335,0 86.34921647199999,23.72508184200001,0 86.349327015,23.725333348,0 86.349548099,23.725484252,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="53A228AB6CA421CECD17B">
+			<name>Blue segment 83</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.364434477,23.725534553,0 86.3648398,23.724930938,0 86.364066003,23.72382431,0 86.363881765,23.724025515,0 86.364066003,23.724176419,0 86.364029155,23.724277021,0 86.363844918,23.724075816,0 86.363586986,23.724377624,0 86.364323935,23.725484252,0 86.364434477,23.725534553,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="5419704E7D9421CECD17B">
+			<name>Blue segment 84</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35419088099999,23.725685457,0 86.354301423,23.725534553,0 86.352790677,23.723120092,0 86.352680134,23.723321297,0 86.35419088099999,23.725685457,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="55BEA6AA1B8421CECD17B">
+			<name>Blue segment 85</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.364508172,23.725836361,0 86.365024037,23.725182444,0 86.36491349400001,23.725132143,0 86.364471325,23.725635156,0 86.364508172,23.725836361,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="56310D7C2A0421CECD17B">
+			<name>Blue segment 86</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36192884899999,23.725936963,0 86.36310796799999,23.724578829,0 86.362739494,23.723975214,0 86.36148668,23.725132143,0 86.36192884899999,23.725936963,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="57C88DA6B42421CECD17B">
+			<name>Blue segment 87</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.361670917,23.725786059,0 86.36133929,23.725232746,0 86.36119189999999,23.725333348,0 86.361007663,23.724981239,0 86.36071288300001,23.725283047,0 86.360860273,23.725484252,0 86.361007663,23.725333348,0 86.36144983200001,23.725936963,0 86.361670917,23.725786059,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="5877093E620421CECD17B">
+			<name>Blue segment 88</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.349142777,23.725936963,0 86.349437557,23.725584854,0 86.349179625,23.725232746,0 86.348921692,23.725534553,0 86.349142777,23.725936963,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="593F2DCB8F9421CECD17B">
+			<name>Blue segment 89</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36343959600001,23.726741784,0 86.364066003,23.725886662,0 86.36336590099999,23.724880637,0 86.362739494,23.725685457,0 86.36343959600001,23.726741784,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="5A08D407E7B421CECD17B">
+			<name>Blue segment 90</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34792681099999,23.726741784,0 86.348074201,23.726741784,0 86.34836898,23.726439976,0 86.348221591,23.726289072,0 86.34792681099999,23.726741784,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="5BBABD18091421CECD17B">
+			<name>Blue segment 91</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.365429359,23.72699329,0 86.365834681,23.726339373,0 86.365097732,23.725333348,0 86.364655562,23.725936963,0 86.365429359,23.72699329,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="5CE29DD003A421CECD17B">
+			<name>Blue segment 92</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.362960579,23.727345399,0 86.363292206,23.726842386,0 86.362592104,23.725836361,0 86.362223629,23.726339373,0 86.362960579,23.727345399,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="5D144410D90421CECD17B">
+			<name>Blue segment 93</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.365318817,23.727446001,0 86.365429359,23.727244796,0 86.36454501999999,23.726037566,0 86.364434477,23.726037566,0 86.364471325,23.726289072,0 86.365318817,23.727446001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="5E7C7C8C871421CECD17B">
+			<name>Blue segment 94</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.365871529,23.727647206,0 86.366313698,23.727043591,0 86.366018919,23.726540579,0 86.365576749,23.727244796,0 86.365871529,23.727647206,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="5FBC811CF97421CECD17B">
+			<name>Blue segment 95</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36288688400001,23.727596905,0 86.362149934,23.726540579,0 86.362039392,23.726238771,0 86.36336590099999,23.72467943199999,0 86.364066003,23.725635156,0 86.364213393,23.725987265,0 86.36288688400001,23.727596905,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="60D5867D285421CECD17B">
+			<name>Blue segment 96</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.329171449,23.726339373,0 86.329945245,23.727747809,0 86.330055788,23.72779811,0 86.341994368,23.716379722,0 86.341073181,23.714820383,0 86.329171449,23.726339373,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="612896D05B2421CECD17B">
+			<name>Blue segment 97</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34991657400001,23.727446001,0 86.348405828,23.72508184200001,0 86.348258438,23.725333348,0 86.348184743,23.725333348,0 86.348074201,23.72508184200001,0 86.347853116,23.725232746,0 86.34855321800001,23.726389675,0 86.348590065,23.72618847,0 86.348700608,23.726138168,0 86.348700608,23.726289072,0 86.34855321800001,23.726439976,0 86.349511252,23.727898713,0 86.34991657400001,23.727446001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="62B1585BC03421CECD17B">
+			<name>Blue segment 98</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36572413899999,23.727949014,0 86.36579783400001,23.72779811,0 86.365503054,23.727345399,0 86.36535566400001,23.727546604,0 86.36572413899999,23.727949014,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="63AA73FFA72421CECD17B">
+			<name>Blue segment 99</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.362665799,23.728150219,0 86.36255525599999,23.727898713,0 86.362481561,23.728049617,0 86.362665799,23.728150219,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="64F14CED08E421CECD17B">
+			<name>Blue segment 100</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.365650444,23.728351424,0 86.365760986,23.728401725,0 86.365834681,23.72820052,0 86.365650444,23.728351424,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="651FFDDDB1B421CECD17B">
+			<name>Blue segment 101</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.349806032,23.728401725,0 86.350248201,23.727898713,0 86.350027117,23.727546604,0 86.349621794,23.728049617,0 86.349806032,23.728401725,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="667E0F86E87421CECD17B">
+			<name>Blue segment 102</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.352237965,23.728552629,0 86.35245904999999,23.728703533,0 86.352790677,23.728250822,0 86.352606439,23.727999315,0 86.352790677,23.72820052,0 86.352901219,23.728150219,0 86.354338271,23.726439976,0 86.354448813,23.72618847,0 86.354117186,23.725886662,0 86.35216427,23.728301123,0 86.352237965,23.728552629,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="67C51BFDA2B421CECD17B">
+			<name>Blue segment 103</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.364139698,23.728904738,0 86.365097732,23.727546604,0 86.36436078200001,23.726389675,0 86.363255358,23.727747809,0 86.364139698,23.728904738,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="68ED960AFC4421CECD17B">
+			<name>Blue segment 104</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.366018919,23.729055642,0 86.366203156,23.728703533,0 86.365945224,23.728351424,0 86.36572413899999,23.728703533,0 86.366018919,23.729055642,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="69FA6A43192421CECD17B">
+			<name>Blue segment 105</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34921647199999,23.729055642,0 86.34973233700001,23.728502328,0 86.349548099,23.72820052,0 86.349032235,23.728804136,0 86.34921647199999,23.729055642,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="6A76687A70E421CECD17B">
+			<name>Blue segment 106</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.352053727,23.729105943,0 86.35231166,23.728854437,0 86.35209057500001,23.728452027,0 86.351795795,23.728804136,0 86.352053727,23.729105943,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="6B6D79593B4421CECD17B">
+			<name>Blue segment 107</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35127993099999,23.729156244,0 86.354043491,23.725735758,0 86.352606439,23.723472201,0 86.35102199799999,23.725433951,0 86.350579829,23.724981239,0 86.350764066,23.724880637,0 86.350321896,23.72422672,0 86.35039559099999,23.723975214,0 86.350027117,23.723572804,0 86.349474405,23.722667381,0 86.350542981,23.721309247,0 86.35083776099999,23.720806234,0 86.35135362600001,23.72025292,0 86.351243083,23.72010201599999,0 86.349511252,23.722214669,0 86.349437557,23.722566778,0 86.34925332,23.722516477,0 86.349142777,23.722767983,0 86.349032235,23.722818285,0 86.349032235,23.72301949,0 86.34925332,23.723572804,0 86.349511252,23.72467943199999,0 86.349879727,23.725232746,0 86.34925332,23.726138168,0 86.35127993099999,23.729156244,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="6C34A065211421CECD17B">
+			<name>Blue segment 108</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34851637,23.729156244,0 86.349437557,23.728049617,0 86.34836898,23.726490277,0 86.348074201,23.726842386,0 86.34792681099999,23.726842386,0 86.347889963,23.726741784,0 86.347337251,23.727446001,0 86.34851637,23.729156244,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="6DDF4942EC6421CECD17B">
+			<name>Blue segment 109</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35190633800001,23.729307148,0 86.351980032,23.729206546,0 86.3517221,23.728854437,0 86.351685253,23.729005341,0 86.35190633800001,23.729307148,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="6EBEE425B80421CECD17B">
+			<name>Blue segment 110</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.349437557,23.729407751,0 86.34973233700001,23.729055642,0 86.34965864199999,23.728854437,0 86.349327015,23.729206546,0 86.349437557,23.729407751,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="6F29695E187421CECD17B">
+			<name>Blue segment 111</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36472925699999,23.729458052,0 86.365613596,23.728150219,0 86.365318817,23.727697508,0 86.364434477,23.729005341,0 86.36472925699999,23.729458052,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="70B880F7665421CECD17B">
+			<name>Blue segment 112</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.363918613,23.729458052,0 86.364066003,23.729156244,0 86.363513291,23.728452027,0 86.36336590099999,23.728552629,0 86.36343959600001,23.728301123,0 86.363034273,23.727747809,0 86.36439763,23.726087867,0 86.364471325,23.725836361,0 86.363402748,23.724377624,0 86.363329053,23.724427925,0 86.36336590099999,23.724277021,0 86.362923731,23.723723707,0 86.362850036,23.723874611,0 86.363292206,23.724578829,0 86.361965697,23.72618847,0 86.361744612,23.725936963,0 86.361560375,23.726238771,0 86.363513291,23.729005341,0 86.363918613,23.729458052,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="714040DEABA421CECD17B">
+			<name>Blue segment 113</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.361118205,23.729508353,0 86.362149934,23.72820052,0 86.362334172,23.727848411,0 86.360565493,23.725333348,0 86.360786578,23.724981239,0 86.358723119,23.721208644,0 86.358538882,23.72105774,0 86.357433458,23.722466176,0 86.357249221,23.722818285,0 86.360970815,23.729407751,0 86.361118205,23.729508353,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="72F32EDBAA3421CECD17B">
+			<name>Blue segment 114</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.351685253,23.729608956,0 86.35183264299999,23.729307148,0 86.351611558,23.729005341,0 86.351390473,23.729307148,0 86.35157470999999,23.729608956,0 86.351685253,23.729608956,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="73588E2C6EA421CECD17B">
+			<name>Blue segment 115</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35091145600001,23.729608956,0 86.351132541,23.729206546,0 86.350321896,23.728049617,0 86.350063964,23.728301123,0 86.350027117,23.728452027,0 86.35091145600001,23.729608956,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="745DD5269D7421CECD17B">
+			<name>Blue segment 116</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36461871500001,23.72965925700001,0 86.364655562,23.729558655,0 86.364323935,23.729206546,0 86.36428708699999,23.729307148,0 86.36461871500001,23.72965925700001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="75D53E6AA12421CECD17B">
+			<name>Blue segment 117</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36089712,23.72965925700001,0 86.360860273,23.729407751,0 86.35710183099999,23.722918887,0 86.35691759300001,23.723220695,0 86.357212373,23.723572804,0 86.36089712,23.72965925700001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="7647CF64F43421CECD17B">
+			<name>Blue segment 118</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.350579829,23.730011366,0 86.35072721900001,23.72975986,0 86.349990269,23.728653232,0 86.349769184,23.728653232,0 86.349695489,23.728854437,0 86.350579829,23.730011366,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="774A6FBB763421CECD17B">
+			<name>Blue segment 119</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.351206236,23.730111969,0 86.351501015,23.72975986,0 86.35127993099999,23.729407751,0 86.350985151,23.729709558,0 86.351206236,23.730111969,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="78847163BD8421CECD17B">
+			<name>Blue segment 120</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.340962639,23.730514379,0 86.346121285,23.724126118,0 86.346600302,23.7234219,0 86.34674769199999,23.723572804,0 86.347153014,23.723120092,0 86.346858234,23.72261708,0 86.34674769199999,23.722566778,0 86.346600302,23.722767983,0 86.346526607,23.722667381,0 86.34637921700001,23.722717682,0 86.34634237,23.722868586,0 86.346416065,23.72301949,0 86.34066785900001,23.729910764,0 86.340631012,23.730061667,0 86.340962639,23.730514379,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="7933A0E90DA421CECD17B">
+			<name>Blue segment 121</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.365245122,23.730614981,0 86.36535566400001,23.730363475,0 86.36553990100001,23.730212571,0 86.36553990100001,23.729961065,0 86.36590837599999,23.729307148,0 86.365503054,23.728653232,0 86.36469241,23.729860462,0 86.365245122,23.730614981,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="7A4E227280D421CECD17B">
+			<name>Blue segment 122</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.364434477,23.730614981,0 86.364471325,23.730514379,0 86.364323935,23.730413776,0 86.36428708699999,23.730464077,0 86.364434477,23.730614981,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="7BF0AB716F1421CECD17B">
+			<name>Blue segment 123</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35028504899999,23.730614981,0 86.350506134,23.730313174,0 86.34991657400001,23.72935745,0 86.349769184,23.72925684699999,0 86.349548099,23.729608956,0 86.350137659,23.730514379,0 86.35028504899999,23.730614981,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="7CE48A0BEB4421CECD17B">
+			<name>Blue segment 124</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35091145600001,23.730665283,0 86.351132541,23.730262872,0 86.35083776099999,23.729860462,0 86.35065352399999,23.730061667,0 86.350616676,23.730262872,0 86.35091145600001,23.730665283,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="7D207B8E601421CECD17B">
+			<name>Blue segment 125</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36192884899999,23.730816186,0 86.36318166300001,23.72925684699999,0 86.362592104,23.728301123,0 86.36133929,23.729860462,0 86.36192884899999,23.730816186,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="7E47DF3998D421CECD17B">
+			<name>Blue segment 126</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.329539923,23.729458052,0 86.330424263,23.730916789,0 86.33794114600001,23.723572804,0 86.34298925,23.718794183,0 86.34321033499999,23.718492375,0 86.342325995,23.716983337,0 86.329539923,23.729458052,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="7F32C104A2B421CECD17B">
+			<name>Blue segment 127</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.350358744,23.73096709,0 86.350506134,23.73096709,0 86.350764066,23.730665283,0 86.350579829,23.730464077,0 86.350321896,23.730765885,0 86.350358744,23.73096709,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="80BF977DD1E421CECD17B">
+			<name>Blue segment 128</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.364950342,23.731168295,0 86.365134579,23.730866488,0 86.365097732,23.730665283,0 86.365024037,23.730665283,0 86.3648398,23.731017391,0 86.364950342,23.731168295,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="8146F1E5E84421CECD17B">
+			<name>Blue segment 129</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.340262537,23.7313695,0 86.340815249,23.730665283,0 86.340520469,23.73016227,0 86.339967757,23.730816186,0 86.340262537,23.7313695,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="82FBD753528421CECD17B">
+			<name>Blue segment 130</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.362223629,23.73177191,0 86.36373437500001,23.729608956,0 86.36343959600001,23.729156244,0 86.36237101899999,23.730614981,0 86.36192884899999,23.731067693,0 86.36119189999999,23.729860462,0 86.362518409,23.728099918,0 86.362481561,23.728049617,0 86.36108135800001,23.72975986,0 86.36089712,23.72965925700001,0 86.362223629,23.73177191,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="83C1F06A60A421CECD17B">
+			<name>Blue segment 131</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35186949,23.731721609,0 86.351980032,23.731570705,0 86.351943185,23.731419802,0 86.351206236,23.730413776,0 86.350985151,23.730715584,0 86.351243083,23.731168295,0 86.35135362600001,23.731168295,0 86.35135362600001,23.731419802,0 86.35146416800001,23.731570705,0 86.35164840500001,23.731470103,0 86.3517221,23.73177191,0 86.35186949,23.731721609,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="847565833B6421CECD17B">
+			<name>Blue segment 132</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.359165289,23.732073718,0 86.36060234,23.730061667,0 86.35665966099999,23.723774009,0 86.355849017,23.724780034,0 86.35511206699999,23.725886662,0 86.358538882,23.731268898,0 86.359165289,23.732073718,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="85B276F5299421CECD17B">
+			<name>Blue segment 133</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.338567553,23.732174321,0 86.346231827,23.722969188,0 86.34512640299999,23.721258945,0 86.33757267199999,23.730614981,0 86.338567553,23.732174321,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="86E6F9E1D07421CECD17B">
+			<name>Blue segment 134</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.359238984,23.732224622,0 86.359312679,23.732274923,0 86.360786578,23.730313174,0 86.36071288300001,23.730262872,0 86.359238984,23.732224622,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="87161E4D502421CECD17B">
+			<name>Blue segment 135</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35135362600001,23.732375526,0 86.351611558,23.732023417,0 86.350800913,23.730816186,0 86.350542981,23.731168295,0 86.35135362600001,23.732375526,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="88E2DD2F8EC421CECD17B">
+			<name>Blue segment 136</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35209057500001,23.732526429,0 86.352348507,23.732023417,0 86.352127422,23.731721609,0 86.35190633800001,23.731922814,0 86.35164840500001,23.731721609,0 86.35164840500001,23.731872513,0 86.35209057500001,23.732526429,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="89BBCAFE8CC421CECD17B">
+			<name>Blue segment 137</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36255525599999,23.73292884,0 86.362665799,23.73292884,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="8AE1D541D85421CECD17B">
+			<name>Blue segment 138</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.351095693,23.73292884,0 86.351206236,23.73292884,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="8B28F36BCC2421CECD17B">
+			<name>Blue segment 139</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.363586986,23.733130045,0 86.364655562,23.731168295,0 86.36428708699999,23.730665283,0 86.36310796799999,23.732425827,0 86.363586986,23.733130045,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="8C610D4E6F3421CECD17B">
+			<name>Blue segment 140</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.362960579,23.733431852,0 86.36299742600001,23.73333125,0 86.362923731,23.733280949,0 86.362960579,23.733431852,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="8D9CADC8EF9421CECD17B">
+			<name>Blue segment 141</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.352938067,23.73373366,0 86.353232846,23.73333125,0 86.352422202,23.732174321,0 86.35216427,23.732526429,0 86.352938067,23.73373366,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="8E6CF762812421CECD17B">
+			<name>Blue segment 142</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.360565493,23.733934865,0 86.36063918799999,23.733934865,0 86.361892002,23.732124019,0 86.36082342500001,23.73056468,0 86.359423221,23.732325224,0 86.360565493,23.733934865,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="8FAFBFE5DFE421CECD17B">
+			<name>Blue segment 143</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.353048609,23.733884564,0 86.353122304,23.733934865,0 86.35319599899999,23.733783961,0 86.353048609,23.733884564,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="90A2A111CC0421CECD17B">
+			<name>Blue segment 144</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.353896101,23.734186371,0 86.354669898,23.733280949,0 86.354411966,23.732777936,0 86.353601321,23.733633057,0 86.353896101,23.734186371,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="91B76A9800F421CECD17B">
+			<name>Blue segment 145</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.361155053,23.734488179,0 86.36119189999999,23.734286974,0 86.360970815,23.734085769,0 86.360933968,23.734286974,0 86.361155053,23.734488179,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="921F666F92F421CECD17B">
+			<name>Blue segment 146</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.352790677,23.734639083,0 86.35308545700001,23.73423667300001,0 86.351943185,23.732526429,0 86.35164840500001,23.73292884,0 86.352790677,23.734639083,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="93E1B18C1CB421CECD17B">
+			<name>Blue segment 147</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36071288300001,23.734186371,0 86.360381256,23.733934865,0 86.359202137,23.732274923,0 86.35909159400001,23.732325224,0 86.35492782999999,23.725886662,0 86.35492782999999,23.725735758,0 86.356585966,23.723623105,0 86.356364881,23.723170393,0 86.356254339,23.723170393,0 86.35463305,23.725283047,0 86.353343389,23.723270996,0 86.353343389,23.723120092,0 86.35511206699999,23.72105774,0 86.355480542,23.72146015,0 86.356364881,23.722918887,0 86.356475424,23.722868586,0 86.355296305,23.720906836,0 86.35544369500001,23.72065533,0 86.355148915,23.720202619,0 86.355038372,23.720353522,0 86.354890983,23.720353522,0 86.354890983,23.720605029,0 86.353122304,23.722767983,0 86.352974914,23.722667381,0 86.351501015,23.720403824,0 86.350948303,23.720957138,0 86.34965864199999,23.722667381,0 86.35028504899999,23.723623105,0 86.35209057500001,23.72146015,0 86.35216427,23.721560753,0 86.35186949,23.721963163,0 86.35190633800001,23.722114067,0 86.35183264299999,23.722214669,0 86.352237965,23.722013464,0 86.352606439,23.722516477,0 86.353343389,23.72382431,0 86.354448813,23.725484252,0 86.35426457600001,23.725836361,0 86.35448565999999,23.72618847,0 86.354669898,23.726037566,0 86.35478044,23.726087867,0 86.35828094999999,23.732023417,0 86.36027071300001,23.734689384,0 86.36071288300001,23.734186371,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="9484F357D97421CECD17B">
+			<name>Blue segment 148</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.353453931,23.734739685,0 86.353859253,23.73423667300001,0 86.35330654099999,23.733482154,0 86.353159152,23.733683359,0 86.353232846,23.733783961,0 86.353122304,23.734035468,0 86.353232846,23.734186371,0 86.353159152,23.734387576,0 86.353453931,23.734739685,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="958633FBC5E421CECD17B">
+			<name>Blue segment 149</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.360307561,23.734890589,0 86.36052864600001,23.735343301,0 86.36071288300001,23.735192397,0 86.360970815,23.735343301,0 86.361228747,23.734789987,0 86.36071288300001,23.734286974,0 86.360307561,23.734890589,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="967951B59C6421CECD17B">
+			<name>Blue segment 150</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.364655562,23.735443903,0 86.36491349400001,23.734991192,0 86.363918613,23.733783961,0 86.363881765,23.733884564,0 86.36417654500001,23.734488179,0 86.36417654500001,23.734588782,0 86.36410284999999,23.734588782,0 86.363697528,23.733683359,0 86.36491349400001,23.731268898,0 86.364766105,23.7313695,0 86.36366068,23.733381551,0 86.363144816,23.732828237,0 86.36281318899999,23.732274923,0 86.363586986,23.731268898,0 86.36428708699999,23.73016227,0 86.364434477,23.730313174,0 86.36461871500001,23.730262872,0 86.364581867,23.730464077,0 86.364766105,23.730816186,0 86.364987189,23.730514379,0 86.364139698,23.729458052,0 86.36399230799999,23.729608956,0 86.364029155,23.729860462,0 86.36395546,23.729910764,0 86.363881765,23.729810161,0 86.362334172,23.732023417,0 86.362039392,23.73177191,0 86.35691759300001,23.7234219,0 86.356770204,23.723623105,0 86.36071288300001,23.730061667,0 86.36218678199999,23.732124019,0 86.362223629,23.732325224,0 86.362113087,23.732274923,0 86.361007663,23.733884564,0 86.361412985,23.734387576,0 86.362592104,23.732627032,0 86.363329053,23.733532455,0 86.363476443,23.73383426199999,0 86.363144816,23.733532455,0 86.363071121,23.733582756,0 86.363329053,23.734085769,0 86.36255525599999,23.735544506,0 86.362665799,23.735695409,0 86.362776341,23.73559480699999,0 86.363476443,23.73413607,0 86.363586986,23.73413607,0 86.364655562,23.735443903,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="978EB6019D5421CECD17B">
+			<name>Blue segment 151</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36200254400001,23.735745711,0 86.363071121,23.733934865,0 86.362592104,23.733180346,0 86.36137613699999,23.734840288,0 86.36200254400001,23.735745711,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="989B94B4826421CECD17B">
+			<name>Blue segment 152</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.362113087,23.736047518,0 86.36237101899999,23.73559480699999,0 86.362334172,23.735494204,0 86.362076239,23.735896614,0 86.362113087,23.736047518,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="9951145364E421CECD17B">
+			<name>Blue segment 153</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36019701799999,23.736751736,0 86.36082342500001,23.735997217,0 86.360565493,23.73559480699999,0 86.35990223899999,23.736248723,0 86.360123323,23.73650023,0 86.36019701799999,23.736751736,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="9A4CBEA2C78421CECD17B">
+			<name>Blue segment 154</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.358796814,23.736550531,0 86.35901789899999,23.736852339,0 86.359754849,23.736047518,0 86.359828544,23.73609782,0 86.36045495099999,23.735494204,0 86.360491798,23.735343301,0 86.360160171,23.73494089,0 86.358796814,23.736550531,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="9BFDA0BFE89421CECD17B">
+			<name>Blue segment 155</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36310796799999,23.736852339,0 86.36318166300001,23.736802037,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="9CE452FAAB8421CECD17B">
+			<name>Blue segment 156</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.355148915,23.736952941,0 86.355480542,23.736651134,0 86.355296305,23.736349326,0 86.35500152500001,23.736651134,0 86.355148915,23.736952941,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="9D409541BF3421CECD17B">
+			<name>Blue segment 157</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.361597222,23.737003242,0 86.362113087,23.736047518,0 86.36133929,23.735142095,0 86.36104451,23.735494204,0 86.36071288300001,23.735292999,0 86.36063918799999,23.735443903,0 86.361597222,23.737003242,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="9EF37BF2C2A421CECD17B">
+			<name>Blue segment 158</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34177328299999,23.737003242,0 86.34836898,23.729307148,0 86.347226709,23.727596905,0 86.340778402,23.735443903,0 86.34177328299999,23.737003242,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="9FD2A9A0B8E421CECD17B">
+			<name>Blue segment 159</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.353675016,23.737103845,0 86.354596203,23.736198422,0 86.354890983,23.736550531,0 86.355185762,23.736248723,0 86.35393294799999,23.734437878,0 86.353527626,23.734890589,0 86.35393294799999,23.735645108,0 86.353785559,23.736651134,0 86.35363816900001,23.737003242,0 86.353675016,23.737103845,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="A0E8DC016FF421CECD17B">
+			<name>Blue segment 160</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35769139,23.737355351,0 86.35846518699999,23.736701435,0 86.36008647600001,23.734739685,0 86.358207255,23.732174321,0 86.354854135,23.726490277,0 86.35463305,23.726289072,0 86.351390473,23.73016227,0 86.35135362600001,23.730313174,0 86.353490779,23.733482154,0 86.354338271,23.732526429,0 86.35478044,23.733079743,0 86.354854135,23.733280949,0 86.35400664300001,23.734337275,0 86.35566477899999,23.736651134,0 86.35665966099999,23.735695409,0 86.35769139,23.737355351,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="A1538FCE1C2421CECD17B">
+			<name>Blue segment 161</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34147850399999,23.737355351,0 86.34166274099999,23.737103845,0 86.340631012,23.73559480699999,0 86.34048362199999,23.735896614,0 86.34147850399999,23.737355351,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="A2ECF252DCE421CECD17B">
+			<name>Blue segment 162</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.361228747,23.737405653,0 86.36148668,23.737103845,0 86.36089712,23.736148121,0 86.360676035,23.736449928,0 86.360860273,23.73690264,0 86.361228747,23.737405653,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="A3770093509421CECD17B">
+			<name>Blue segment 163</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.342178605,23.737606858,0 86.34228914800001,23.737657159,0 86.349327015,23.729458052,0 86.34921647199999,23.72935745,0 86.342178605,23.737606858,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="A4A398CBFE7421CECD17B">
+			<name>Blue segment 164</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.363586986,23.73770746,0 86.36366068,23.737657159,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="A54018635A5421CECD17B">
+			<name>Blue segment 165</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36082342500001,23.737808063,0 86.36108135800001,23.737556556,0 86.361118205,23.737405653,0 86.360565493,23.73650023,0 86.360233866,23.736802037,0 86.36045495099999,23.737254749,0 86.36052864600001,23.737204447,0 86.360418103,23.737003242,0 86.36071288300001,23.737355351,0 86.36052864600001,23.73730505,0 86.36082342500001,23.737808063,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="A6DD95B8146421CECD17B">
+			<name>Blue segment 166</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.341552198,23.737556556,0 86.34177328299999,23.737808063,0 86.349142777,23.729206546,0 86.348921692,23.728904738,0 86.341552198,23.737556556,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="A704DE5B0C1421CECD17B">
+			<name>Blue segment 167</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34103633399999,23.737808063,0 86.341331114,23.737455954,0 86.340446774,23.736148121,0 86.340151995,23.736550531,0 86.34103633399999,23.737808063,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="A80D34EDA54421CECD17B">
+			<name>Blue segment 168</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.363771223,23.738009268,0 86.36380807,23.737908665,0 86.36373437500001,23.737808063,0 86.363697528,23.737908665,0 86.363771223,23.738009268,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="A923252793C421CECD17B">
+			<name>Blue segment 169</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36148668,23.738009268,0 86.362518409,23.736047518,0 86.362739494,23.736047518,0 86.362481561,23.735645108,0 86.361670917,23.737154146,0 86.36126559500001,23.737657159,0 86.36148668,23.738009268,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="AA6F9EF7213421CECD17B">
+			<name>Blue segment 170</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.358207255,23.738059569,0 86.358759967,23.737556556,0 86.35846518699999,23.73690264,0 86.358023018,23.737355351,0 86.358059865,23.737606858,0 86.358244102,23.73770746,0 86.35813356,23.737858364,0 86.358207255,23.738059569,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="ABD2086FD2B421CECD17B">
+			<name>Blue segment 171</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.356770204,23.738160172,0 86.357507153,23.737405653,0 86.35673335600001,23.73609782,0 86.35654911899999,23.735946916,0 86.355885864,23.736651134,0 86.356770204,23.738160172,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="AC4211F0CCD421CECD17B">
+			<name>Blue segment 172</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.352606439,23.73810987,0 86.352716982,23.73810987,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="AD6A5827638421CECD17B">
+			<name>Blue segment 173</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34177328299999,23.73810987,0 86.34210491100001,23.737908665,0 86.342141758,23.737757761,0 86.342068063,23.737657159,0 86.34177328299999,23.73810987,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="AEDAA6638EF421CECD17B">
+			<name>Blue segment 174</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.340925791,23.738260774,0 86.34103633399999,23.73810987,0 86.33993091000001,23.736550531,0 86.339894062,23.736701435,0 86.340925791,23.738260774,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="AF351B7EE03421CECD17B">
+			<name>Blue segment 175</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.356622814,23.738311075,0 86.356585966,23.73810987,0 86.355849017,23.736802037,0 86.35566477899999,23.736701435,0 86.35599640700001,23.737455954,0 86.356475424,23.738260774,0 86.356622814,23.738311075,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="B0144D378C1421CECD17B">
+			<name>Blue segment 176</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.361118205,23.738461979,0 86.36144983200001,23.738160172,0 86.36137613699999,23.737958967,0 86.36108135800001,23.738160172,0 86.36126559500001,23.737808063,0 86.361228747,23.73770746,0 86.36089712,23.738009268,0 86.361118205,23.738461979,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="B1369FEC26B421CECD17B">
+			<name>Blue segment 177</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36019701799999,23.738461979,0 86.360676035,23.737908665,0 86.359754849,23.736299025,0 86.359312679,23.736751736,0 86.35927583199999,23.73690264,0 86.36019701799999,23.738461979,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="B2D50E40B6E421CECD17B">
+			<name>Blue segment 178</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.366424241,23.738663184,0 86.366792715,23.738210473,0 86.36653478300001,23.737808063,0 86.366203156,23.738210473,0 86.366424241,23.738663184,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="B3DAD548008421CECD17B">
+			<name>Blue segment 179</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34302609700001,23.738864389,0 86.35010081199999,23.730765885,0 86.34940071,23.72965925700001,0 86.342362843,23.737808063,0 86.34302609700001,23.738864389,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="B49157B5DD7421CECD17B">
+			<name>Blue segment 180</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.359791696,23.738964992,0 86.35990223899999,23.73881408800001,0 86.359681154,23.738562582,0 86.35964430600001,23.738311075,0 86.35946006899999,23.73810987,0 86.359312679,23.737657159,0 86.359754849,23.738361377,0 86.359828544,23.738160172,0 86.359165289,23.737003242,0 86.359054747,23.737103845,0 86.35927583199999,23.737405653,0 86.359238984,23.737506255,0 86.359128442,23.737455954,0 86.35890735700001,23.736852339,0 86.358723119,23.736600832,0 86.358538882,23.736852339,0 86.359791696,23.738964992,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="B5DE77FE4E2421CECD17B">
+			<name>Blue segment 181</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.366755868,23.739216498,0 86.367124343,23.73881408800001,0 86.36686641,23.73841167799999,0 86.366497936,23.73881408800001,0 86.366755868,23.739216498,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="B64D8B54E40421CECD17B">
+			<name>Blue segment 182</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34273131800001,23.739216498,0 86.342915555,23.738964992,0 86.342325995,23.738059569,0 86.342178605,23.737958967,0 86.341994368,23.738260774,0 86.34273131800001,23.739216498,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="B7BC551C3D1421CECD17B">
+			<name>Blue segment 183</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.361228747,23.7392668,0 86.36133929,23.739115896,0 86.360860273,23.738260774,0 86.36071288300001,23.738160172,0 86.36060234,23.738311075,0 86.361228747,23.7392668,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="B87A61411D6421CECD17B">
+			<name>Blue segment 184</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.342768165,23.739417703,0 86.342915555,23.739568607,0 86.34991657400001,23.731621007,0 86.350358744,23.731017391,0 86.350211354,23.730916789,0 86.342768165,23.739417703,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="B927E9BFEAF421CECD17B">
+			<name>Blue segment 185</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.359128442,23.739618908,0 86.35964430600001,23.739065594,0 86.358796814,23.737606858,0 86.35828094999999,23.738210473,0 86.359128442,23.739618908,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="BAE3E9BD9FD421CECD17B">
+			<name>Blue segment 186</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.366240003,23.73966921,0 86.366608478,23.739317101,0 86.366387393,23.738914691,0 86.366055766,23.7392668,0 86.366240003,23.73966921,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="BB2FB94F58A421CECD17B">
+			<name>Blue segment 187</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.367050648,23.739769812,0 86.367419122,23.739417703,0 86.367198038,23.738964992,0 86.366829563,23.739317101,0 86.367050648,23.739769812,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="BCE78F22CC3421CECD17B">
+			<name>Blue segment 188</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.350874608,23.739820113,0 86.350985151,23.739820113,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="BDF08D956A8421CECD17B">
+			<name>Blue segment 189</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.365097732,23.740021319,0 86.365429359,23.73966921,0 86.365392512,23.739468005,0 86.365576749,23.739568607,0 86.36590837599999,23.739166197,0 86.365871529,23.739065594,0 86.365982071,23.739115896,0 86.366313698,23.738763787,0 86.36454501999999,23.73559480699999,0 86.36355013799999,23.734337275,0 86.362776341,23.735896614,0 86.36461871500001,23.739065594,0 86.36461871500001,23.7392668,0 86.365097732,23.740021319,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="BE64D130B99421CECD17B">
+			<name>Blue segment 190</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34210491100001,23.74007162,0 86.342141758,23.739971017,0 86.341625893,23.7392668,0 86.34166274099999,23.739065594,0 86.341589046,23.738964992,0 86.341441656,23.739015293,0 86.341404809,23.739115896,0 86.34210491100001,23.74007162,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="BF5F4AE56AC421CECD17B">
+			<name>Blue segment 191</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.365834681,23.740121921,0 86.366166308,23.739820113,0 86.365945224,23.739417703,0 86.365650444,23.739719511,0 86.365834681,23.740121921,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="C08B7AEC8F2421CECD17B">
+			<name>Blue segment 192</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.360160171,23.740222524,0 86.36104451,23.739367402,0 86.360860273,23.739015293,0 86.36045495099999,23.739417703,0 86.360344408,23.739367402,0 86.36074972999999,23.73881408800001,0 86.36052864600001,23.73841167799999,0 86.360233866,23.738713486,0 86.359975933,23.73841167799999,0 86.359828544,23.73851228,0 86.359939086,23.738864389,0 86.359828544,23.739115896,0 86.360160171,23.73966921,0 86.359975933,23.739971017,0 86.360160171,23.740222524,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="C1BEA78E26B421CECD17B">
+			<name>Blue segment 193</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.366608478,23.740272825,0 86.366940105,23.739920716,0 86.36671902000001,23.739468005,0 86.366387393,23.739820113,0 86.366608478,23.740272825,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="C22B9ABAB4B421CECD17B">
+			<name>Blue segment 194</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34302609700001,23.740021319,0 86.342031216,23.738612883,0 86.34184697800001,23.738763787,0 86.341957521,23.738461979,0 86.341404809,23.737606858,0 86.34111002900001,23.737908665,0 86.342620775,23.740323126,0 86.34302609700001,23.740021319,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="C307C1145BC421CECD17B">
+			<name>Blue segment 195</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.344057826,23.740423729,0 86.351206236,23.732526429,0 86.350432439,23.731268898,0 86.343357725,23.739317101,0 86.344057826,23.740423729,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="C4C5676FE0C421CECD17B">
+			<name>Blue segment 196</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.359939086,23.740524331,0 86.36008647600001,23.740323126,0 86.359865391,23.740021319,0 86.359754849,23.740222524,0 86.359939086,23.740524331,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="C5A75E3D82A421CECD17B">
+			<name>Blue segment 197</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.365392512,23.740624934,0 86.36572413899999,23.740272825,0 86.365503054,23.739820113,0 86.36517142700001,23.740172222,0 86.365392512,23.740624934,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="C6D0C1A3194421CECD17B">
+			<name>Blue segment 198</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.366166308,23.740725536,0 86.366497936,23.740423729,0 86.366240003,23.739920716,0 86.365945224,23.740272825,0 86.366166308,23.740725536,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="C7B951E6B9C421CECD17B">
+			<name>Blue segment 199</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.367677055,23.740775838,0 86.368008682,23.740373427,0 86.36760336,23.739618908,0 86.367492817,23.739568607,0 86.36716119,23.739971017,0 86.367677055,23.740775838,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="C83499E34B4421CECD17B">
+			<name>Blue segment 200</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.350432439,23.740775838,0 86.350616676,23.740574632,0 86.35046928600001,23.740222524,0 86.350211354,23.740423729,0 86.350432439,23.740775838,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="C9EAE79E493421CECD17B">
+			<name>Blue segment 201</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.343726199,23.740826139,0 86.343947284,23.740524331,0 86.343357725,23.739618908,0 86.343173487,23.739468005,0 86.34298925,23.739719511,0 86.343726199,23.740826139,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="CA59B262031421CECD17B">
+			<name>Blue segment 202</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.342620775,23.740826139,0 86.34269447,23.740725536,0 86.342141758,23.740021319,0 86.34210491100001,23.740121921,0 86.342620775,23.740826139,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="CB98B8428F8421CECD17B">
+			<name>Blue segment 203</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.362149934,23.74087644,0 86.362223629,23.740675235,0 86.361523527,23.739568607,0 86.36144983200001,23.739317101,0 86.361302442,23.739317101,0 86.361302442,23.739518306,0 86.362149934,23.74087644,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="CC969CB42A2421CECD17B">
+			<name>Blue segment 204</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34973233700001,23.74087644,0 86.34984287899999,23.74087644,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="CD91A2A7903421CECD17B">
+			<name>Blue segment 205</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35065352399999,23.740323126,0 86.351095693,23.740977043,0 86.354854135,23.737254749,0 86.35500152500001,23.737003242,0 86.354596203,23.736449928,0 86.35083776099999,23.740021319,0 86.35065352399999,23.740323126,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="CE7D700660D421CECD17B">
+			<name>Blue segment 206</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36775075,23.740977043,0 86.367861292,23.741027344,0 86.368119224,23.740624934,0 86.36775075,23.740977043,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="CF98A0C5487421CECD17B">
+			<name>Blue segment 207</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.334882806,23.741077645,0 86.341589046,23.733180346,0 86.347816268,23.725584854,0 86.346637149,23.723723707,0 86.33385107700001,23.739518306,0 86.334882806,23.741077645,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="D0F537A3584421CECD17B">
+			<name>Blue segment 208</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.364950342,23.741127946,0 86.36528196899999,23.740725536,0 86.365024037,23.740323126,0 86.3648398,23.74047403,0 86.36480295200001,23.740373427,0 86.364950342,23.740121921,0 86.364508172,23.739367402,0 86.364213393,23.739920716,0 86.364655562,23.740624934,0 86.36472925699999,23.740574632,0 86.364655562,23.740675235,0 86.364950342,23.741127946,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="D193E139519421CECD17B">
+			<name>Blue segment 209</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.343799894,23.740977043,0 86.343947284,23.741178248,0 86.35065352399999,23.73373366,0 86.35186949,23.732526429,0 86.35186949,23.732375526,0 86.351685253,23.732224622,0 86.351206236,23.732777936,0 86.351206236,23.733029442,0 86.351095693,23.733079743,0 86.351095693,23.73292884,0 86.343799894,23.740977043,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="D25A86912CE421CECD17B">
+			<name>Blue segment 210</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36572413899999,23.741228549,0 86.366055766,23.74087644,0 86.365834681,23.740423729,0 86.365503054,23.740775838,0 86.36572413899999,23.741228549,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="D38879A7D1F421CECD17B">
+			<name>Blue segment 211</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.367198038,23.74127885,0 86.36752966500001,23.74087644,0 86.3670138,23.74007162,0 86.36671902000001,23.74047403,0 86.367198038,23.74127885,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="D4B620D05FE421CECD17B">
+			<name>Blue segment 212</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.350764066,23.741329152,0 86.350948303,23.741077645,0 86.350764066,23.740725536,0 86.35065352399999,23.740675235,0 86.350506134,23.740926741,0 86.350764066,23.741329152,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="D5D2BE9E525421CECD17B">
+			<name>Blue segment 213</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34929016700001,23.741329152,0 86.349363862,23.741379453,0 86.349437557,23.74127885,0 86.349363862,23.741228549,0 86.34929016700001,23.741329152,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="D674DBE0397421CECD17B">
+			<name>Blue segment 214</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36244471400001,23.741429754,0 86.36255525599999,23.74127885,0 86.36218678199999,23.740826139,0 86.36218678199999,23.741178248,0 86.362334172,23.741429754,0 86.36244471400001,23.741429754,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="D7AB15868AD421CECD17B">
+			<name>Blue segment 215</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.368045529,23.741480055,0 86.368414004,23.741077645,0 86.368229767,23.740775838,0 86.367861292,23.741127946,0 86.368045529,23.741480055,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="D8B187224D9421CECD17B">
+			<name>Blue segment 216</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.334514332,23.741580658,0 86.33477226399999,23.741178248,0 86.33366684000001,23.739518306,0 86.340151995,23.731470103,0 86.33985721499999,23.731017391,0 86.332966738,23.73966921,0 86.334514332,23.741580658,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="D9981684CCE421CECD17B">
+			<name>Blue segment 217</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.364471325,23.741630959,0 86.36480295200001,23.741228549,0 86.364434477,23.740775838,0 86.364434477,23.740574632,0 86.364139698,23.74007162,0 86.363586986,23.741228549,0 86.363697528,23.741429754,0 86.363881765,23.741429754,0 86.364066003,23.741077645,0 86.364139698,23.741077645,0 86.364471325,23.741630959,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="DA94A71C7DE421CECD17B">
+			<name>Blue segment 218</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36671902000001,23.741731562,0 86.367050648,23.741329152,0 86.366571631,23.740574632,0 86.36627685099999,23.740977043,0 86.36671902000001,23.741731562,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="DBC11976228421CECD17B">
+			<name>Blue segment 219</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36528196899999,23.741781863,0 86.365650444,23.741329152,0 86.365392512,23.740926741,0 86.365024037,23.74127885,0 86.36528196899999,23.741781863,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="DCC9CA59E28421CECD17B">
+			<name>Blue segment 220</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36104451,23.741781863,0 86.36192884899999,23.740977043,0 86.361155053,23.739518306,0 86.36027071300001,23.740373427,0 86.36104451,23.741781863,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="DDCD4F5FC07421CECD17B">
+			<name>Blue segment 221</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36336590099999,23.741832164,0 86.363697528,23.741480055,0 86.36355013799999,23.74127885,0 86.363292206,23.74168126,0 86.36336590099999,23.741832164,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="DE4D6173A72421CECD17B">
+			<name>Blue segment 222</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.363034273,23.741882465,0 86.36436078200001,23.7392668,0 86.362628951,23.736198422,0 86.361597222,23.738210473,0 86.361228747,23.738663184,0 86.363034273,23.741882465,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="DF1F172DFFF421CECD17B">
+			<name>Blue segment 223</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.367566512,23.741932767,0 86.367934987,23.741580658,0 86.367861292,23.741480055,0 86.367787597,23.741530357,0 86.36764020699999,23.741077645,0 86.367271733,23.741429754,0 86.367566512,23.741932767,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="E071F5D62D1421CECD17B">
+			<name>Blue segment 224</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36082342500001,23.741983068,0 86.360933968,23.741832164,0 86.360123323,23.740524331,0 86.36001278099999,23.740675235,0 86.36082342500001,23.741983068,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="E10BBCC1AB5421CECD17B">
+			<name>Blue segment 225</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.364066003,23.742033369,0 86.36436078200001,23.741781863,0 86.36410284999999,23.74127885,0 86.363844918,23.741480055,0 86.363881765,23.741731562,0 86.364066003,23.742033369,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="E221AF62BF0421CECD17B">
+			<name>Blue segment 226</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36310796799999,23.741983068,0 86.36318166300001,23.742033369,0 86.363218511,23.741932767,0 86.363144816,23.741882465,0 86.36310796799999,23.741983068,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="E32E5838787421CECD17B">
+			<name>Blue segment 227</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34339457199999,23.742033369,0 86.343431419,23.741932767,0 86.34313664,23.741429754,0 86.343173487,23.741329152,0 86.34298925,23.741329152,0 86.342915555,23.741480055,0 86.34328403000001,23.742033369,0 86.34339457199999,23.742033369,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="E460DF34ADC421CECD17B">
+			<name>Blue segment 228</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36119189999999,23.741983068,0 86.36133929,23.742083671,0 86.361670917,23.74168126,0 86.361560375,23.741530357,0 86.36119189999999,23.741983068,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="E58364F722E421CECD17B">
+			<name>Blue segment 229</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.341994368,23.742033369,0 86.342436538,23.741429754,0 86.342436538,23.741580658,0 86.342325995,23.741630959,0 86.342178605,23.741932767,0 86.341994368,23.742033369,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="E68EAE133B2421CECD17B">
+			<name>Blue segment 230</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36627685099999,23.742184273,0 86.366608478,23.741781863,0 86.366129461,23.741027344,0 86.365834681,23.741429754,0 86.36627685099999,23.742184273,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="E70DCD14095421CECD17B">
+			<name>Blue segment 231</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36480295200001,23.742284876,0 86.36517142700001,23.741882465,0 86.36491349400001,23.741429754,0 86.36454501999999,23.741781863,0 86.36480295200001,23.742284876,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="E8052784127421CECD17B">
+			<name>Blue segment 232</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34531063999999,23.742335177,0 86.34564226800001,23.742083671,0 86.352606439,23.734739685,0 86.351537863,23.733079743,0 86.344426301,23.740926741,0 86.34531063999999,23.742335177,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="E9FC337D6DD421CECD17B">
+			<name>Blue segment 233</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.344868471,23.742335177,0 86.344979013,23.742184273,0 86.344905318,23.741983068,0 86.344242064,23.741077645,0 86.344057826,23.741329152,0 86.344426301,23.741882465,0 86.344868471,23.742335177,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="EA67E7C0E37421CECD17B">
+			<name>Blue segment 234</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36708749500001,23.742385478,0 86.36745596999999,23.742033369,0 86.36716119,23.741580658,0 86.366829563,23.741882465,0 86.36708749500001,23.742385478,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="EB04204B28C421CECD17B">
+			<name>Blue segment 235</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.363697528,23.742435779,0 86.36399230799999,23.742184273,0 86.36373437500001,23.74168126,0 86.36343959600001,23.741983068,0 86.363697528,23.742435779,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="EC14B7CA169421CECD17B">
+			<name>Blue segment 236</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36579783400001,23.742687286,0 86.36609261300001,23.742385478,0 86.366129461,23.742234574,0 86.365687291,23.741530357,0 86.36535566400001,23.741983068,0 86.36579783400001,23.742687286,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="ED41E7D4A6A421CECD17B">
+			<name>Blue segment 237</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.345089556,23.742687286,0 86.345236945,23.742486081,0 86.34501586099999,23.742184273,0 86.344868471,23.742435779,0 86.345089556,23.742687286,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="EEC970211EE421CECD17B">
+			<name>Blue segment 238</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.364434477,23.742737587,0 86.36469241,23.742435779,0 86.364471325,23.741932767,0 86.36417654500001,23.742234574,0 86.364434477,23.742737587,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="EF25D5637B9421CECD17B">
+			<name>Blue segment 239</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.366645326,23.742888491,0 86.36697695300001,23.742536382,0 86.36671902000001,23.742033369,0 86.36635054600001,23.742335177,0 86.366645326,23.742888491,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="F07D5285892421CECD17B">
+			<name>Blue segment 240</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.363255358,23.74298909299999,0 86.363586986,23.742636985,0 86.363329053,23.742083671,0 86.362923731,23.742486081,0 86.363255358,23.74298909299999,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="F17AE643D5D421CECD17B">
+			<name>Blue segment 241</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34402097900001,23.743039395,0 86.344094674,23.742888491,0 86.343431419,23.741983068,0 86.343357725,23.742133972,0 86.34402097900001,23.743039395,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="F23BD932D2D421CECD17B">
+			<name>Blue segment 242</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.364066003,23.743089696,0 86.364323935,23.74283819,0 86.36410284999999,23.742335177,0 86.36380807,23.742586683,0 86.364066003,23.743089696,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="F33752D52A5421CECD17B">
+			<name>Blue segment 243</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.365318817,23.743139997,0 86.365650444,23.742737587,0 86.36535566400001,23.742184273,0 86.365208274,23.742083671,0 86.36491349400001,23.742486081,0 86.365318817,23.743139997,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="F4FD9AAABFC421CECD17B">
+			<name>Blue segment 244</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.344979013,23.74283819,0 86.344499996,23.742184273,0 86.344242064,23.742435779,0 86.344315759,23.742636985,0 86.344094674,23.742486081,0 86.344352606,23.741983068,0 86.34346826700001,23.740725536,0 86.343320877,23.740926741,0 86.343247182,23.740826139,0 86.343357725,23.740574632,0 86.343099792,23.740172222,0 86.34273131800001,23.74047403,0 86.343173487,23.741027344,0 86.34339457199999,23.741630959,0 86.34357880899999,23.741781863,0 86.343615657,23.742033369,0 86.34420521600001,23.742787888,0 86.34446314900001,23.742737587,0 86.34475792800001,23.743139997,0 86.344979013,23.74283819,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="F55624CB002421CECD17B">
+			<name>Blue segment 245</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.366129461,23.743341202,0 86.36653478300001,23.74298909299999,0 86.366240003,23.742486081,0 86.365871529,23.74283819,0 86.366129461,23.743341202,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="F6123BA2E7A421CECD17B">
+			<name>Blue segment 246</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.347005624,23.743492106,0 86.348147896,23.742385478,0 86.347705726,23.74168126,0 86.346600302,23.742938792,0 86.347005624,23.743492106,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="F7CB40511BB421CECD17B">
+			<name>Blue segment 247</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.364950342,23.743542407,0 86.36517142700001,23.743190298,0 86.364766105,23.742586683,0 86.364508172,23.742888491,0 86.364766105,23.74339150400001,0 86.364950342,23.743542407,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="F86D0210C9D421CECD17B">
+			<name>Blue segment 248</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36362383300001,23.74364301,0 86.36395546,23.7432406,0 86.363697528,23.742737587,0 86.363329053,23.743139997,0 86.36362383300001,23.74364301,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="F92689A203F421CECD17B">
+			<name>Blue segment 249</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.345163251,23.74283819,0 86.345789658,23.743693311,0 86.347668879,23.741429754,0 86.348221591,23.742184273,0 86.353453931,23.737154146,0 86.353564474,23.737003242,0 86.35382240600001,23.735695409,0 86.353159152,23.734588782,0 86.35301176199999,23.73453848,0 86.345163251,23.74283819,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="FAF273DE9F4421CECD17B">
+			<name>Blue segment 250</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.365650444,23.743793914,0 86.366055766,23.743441805,0 86.365760986,23.74298909299999,0 86.365392512,23.743290901,0 86.365650444,23.743793914,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="FB0D6A755AF421CECD17B">
+			<name>Blue segment 251</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.364581867,23.743894516,0 86.364766105,23.743592709,0 86.364434477,23.743039395,0 86.36417654500001,23.743341202,0 86.364471325,23.743844215,0 86.364581867,23.743894516,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="FC64AA2C9FF421CECD17B">
+			<name>Blue segment 252</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.345273793,23.743894516,0 86.345494878,23.743542407,0 86.34531063999999,23.743290901,0 86.345089556,23.743441805,0 86.34520009800001,23.743139997,0 86.345052708,23.742938792,0 86.344794776,23.7432406,0 86.345273793,23.743894516,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="FD375EE61D5421CECD17B">
+			<name>Blue segment 253</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.365208274,23.744246625,0 86.365576749,23.743894516,0 86.36528196899999,23.743441805,0 86.364950342,23.743793914,0 86.365208274,23.744246625,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="FEAA0C85A1B421CECD17B">
+			<name>Blue segment 254</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34619498000001,23.744246625,0 86.34682138700001,23.74364301,0 86.346526607,23.743139997,0 86.346416065,23.743139997,0 86.3459002,23.743793914,0 86.34619498000001,23.744246625,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="FF8D9583213421CECD17B">
+			<name>Blue segment 255</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36410284999999,23.744397529,0 86.36439763,23.743995119,0 86.364029155,23.74339150400001,0 86.36373437500001,23.743844215,0 86.36410284999999,23.744397529,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="10080C44FF08421CECD17B">
+			<name>Blue segment 256</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.364950342,23.744598734,0 86.365134579,23.744347228,0 86.364950342,23.743995119,0 86.36480295200001,23.743894516,0 86.36461871500001,23.744146023,0 86.364950342,23.744598734,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="101A5B73F35D421CECD17B">
+			<name>Blue segment 257</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.36045495099999,23.744699337,0 86.36108135800001,23.74364301,0 86.36108135800001,23.743441805,0 86.36027071300001,23.744296926,0 86.36027071300001,23.74444783,0 86.36045495099999,23.744699337,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1024CC06ACA8421CECD17B">
+			<name>Blue segment 258</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.345273793,23.744548433,0 86.34538433500001,23.744347228,0 86.344352606,23.742888491,0 86.344094674,23.743190298,0 86.34501586099999,23.744699337,0 86.345273793,23.744548433,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="103320213B6B421CECD17B">
+			<name>Blue segment 259</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.347779421,23.744799939,0 86.347963658,23.744649035,0 86.347853116,23.74444783,0 86.347668879,23.744598734,0 86.347779421,23.744799939,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="104BCDD20998421CECD17B">
+			<name>Blue segment 260</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.364434477,23.745101747,0 86.36480295200001,23.74474963799999,0 86.364508172,23.744196324,0 86.36417654500001,23.744548433,0 86.364434477,23.745101747,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="105AF424C717421CECD17B">
+			<name>Blue segment 261</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34637921700001,23.744397529,0 86.34693192899999,23.745101747,0 86.350579829,23.741530357,0 86.350616676,23.741379453,0 86.350174506,23.740675235,0 86.34637921700001,23.744397529,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1063DE30D3FE421CECD17B">
+			<name>Blue segment 262</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.360307561,23.745152048,0 86.36045495099999,23.745001144,0 86.360418103,23.745152048,0 86.360307561,23.745152048,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="107DE8FF6FD2421CECD17B">
+			<name>Blue segment 263</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.346121285,23.745202349,0 86.346452912,23.74485024,0 86.346231827,23.744498131,0 86.34593704700001,23.74485024,0 86.346121285,23.745202349,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="10869C042CF4421CECD17B">
+			<name>Blue segment 264</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34847952299999,23.745856266,0 86.348590065,23.745705362,0 86.34800050600001,23.744699337,0 86.347816268,23.74485024,0 86.348258438,23.745655061,0 86.34847952299999,23.745856266,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="109C1E327E81421CECD17B">
+			<name>Blue segment 265</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.348774303,23.745755663,0 86.348921692,23.745906567,0 86.356364881,23.738562582,0 86.356438576,23.738461979,0 86.355701627,23.737154146,0 86.355480542,23.736852339,0 86.3517221,23.740624934,0 86.348074201,23.744146023,0 86.347963658,23.744347228,0 86.348774303,23.745755663,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="10AB34F09BAD421CECD17B">
+			<name>Blue segment 266</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.348442675,23.74600717,0 86.34851637,23.746208375,0 86.348774303,23.746057471,0 86.348626913,23.745805964,0 86.348442675,23.74600717,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="10B12FA4D1DE421CECD17B">
+			<name>Blue segment 267</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.347816268,23.746459881,0 86.34829528500001,23.745956868,0 86.347521489,23.744699337,0 86.347042472,23.74525265,0 86.347816268,23.746459881,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="10CB774BC122421CECD17B">
+			<name>Blue segment 268</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.347226709,23.747013195,0 86.347668879,23.746510182,0 86.34693192899999,23.745353253,0 86.346526607,23.744950843,0 86.34619498000001,23.745353253,0 86.347226709,23.747013195,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="10D85AE5B39F421CECD17B">
+			<name>Blue segment 269</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34674769199999,23.747516208,0 86.34711616600001,23.747113797,0 86.346231827,23.745705362,0 86.3459002,23.745956868,0 86.34586335199999,23.746107772,0 86.34674769199999,23.747516208,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="10E1B79D0763421CECD17B">
+			<name>Blue segment 270</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.333003585,23.747767714,0 86.340815249,23.738361377,0 86.33978352,23.736802037,0 86.33204555099999,23.746258676,0 86.333003585,23.747767714,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="10F3858B1318421CECD17B">
+			<name>Blue segment 271</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.347779421,23.747918618,0 86.34811104800001,23.74756650899999,0 86.34792681099999,23.7472144,0 86.34755833600001,23.747516208,0 86.347779421,23.747918618,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1109A849F0B7421CECD17B">
+			<name>Blue segment 272</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.346968777,23.747918618,0 86.34748464099999,23.747516208,0 86.34851637,23.746258676,0 86.34836898,23.746107772,0 86.348147896,23.746359278,0 86.348184743,23.746510182,0 86.348037353,23.74640958,0 86.347816268,23.746711387,0 86.347705726,23.746711387,0 86.34682138700001,23.747667111,0 86.346968777,23.747918618,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="111238EB569E421CECD17B">
+			<name>Blue segment 273</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.341810131,23.74801922,0 86.344942166,23.744799939,0 86.34402097900001,23.743341202,0 86.341331114,23.746661086,0 86.341810131,23.74801922,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1128F24B5357421CECD17B">
+			<name>Blue segment 274</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.339894062,23.748522233,0 86.339967757,23.748471932,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="113E473EB4D7421CECD17B">
+			<name>Blue segment 275</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.349621794,23.748622836,0 86.349695489,23.748471932,0 86.34881115,23.747113797,0 86.348700608,23.747315003,0 86.349474405,23.748622836,0 86.349621794,23.748622836,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="11467A0EEFD8421CECD17B">
+			<name>Blue segment 276</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.349990269,23.748723438,0 86.35010081199999,23.748773739,0 86.355038372,23.743743612,0 86.355038372,23.743441805,0 86.355259457,23.743290901,0 86.355296305,23.743441805,0 86.358944204,23.739769812,0 86.358981052,23.739618908,0 86.35809671299999,23.738160172,0 86.357949323,23.738009268,0 86.34910592999999,23.74681199,0 86.348995387,23.747013195,0 86.349990269,23.748723438,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="11518D2ABCEE421CECD17B">
+			<name>Blue segment 277</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.340925791,23.748673137,0 86.341515351,23.748321028,0 86.341552198,23.748119823,0 86.341625893,23.748220425,0 86.34103633399999,23.748723438,0 86.340925791,23.748673137,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="116F984AB6ED421CECD17B">
+			<name>Blue segment 278</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34973233700001,23.749075547,0 86.349953422,23.748924643,0 86.349806032,23.748673137,0 86.349621794,23.748773739,0 86.34973233700001,23.749075547,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="117C83D3D0A9421CECD17B">
+			<name>Blue segment 279</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.340004605,23.749025246,0 86.33993091000001,23.749025246,0 86.33993091000001,23.748874342,0 86.340004605,23.749025246,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="118508D1376D421CECD17B">
+			<name>Blue segment 280</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.341994368,23.749125848,0 86.34184697800001,23.748622836,0 86.341810131,23.748773739,0 86.341994368,23.749125848,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="119F8717F1C9421CECD17B">
+			<name>Blue segment 281</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.348442675,23.749125848,0 86.34855321800001,23.749176149,0 86.348774303,23.748974944,0 86.348995387,23.749226451,0 86.34940071,23.748773739,0 86.34855321800001,23.747264701,0 86.348626913,23.747063496,0 86.358023018,23.737657159,0 86.357765085,23.737355351,0 86.348184743,23.74681199,0 86.348037353,23.7472144,0 86.348184743,23.747465906,0 86.34836898,23.747365304,0 86.348405828,23.747516208,0 86.347853116,23.748069522,0 86.348442675,23.749125848,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="11A8E3B5B25C421CECD17B">
+			<name>Blue segment 282</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.339083418,23.749477957,0 86.33919396,23.749427656,0 86.33912026500001,23.749377355,0 86.339083418,23.749477957,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="11B78C959647421CECD17B">
+			<name>Blue segment 283</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34800050600001,23.749729463,0 86.348405828,23.749276752,0 86.34748464099999,23.747717413,0 86.34737409900001,23.747667111,0 86.347005624,23.748119823,0 86.34800050600001,23.749729463,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="11C236CCDB47421CECD17B">
+			<name>Blue segment 284</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.33886233299999,23.749779765,0 86.338972876,23.749729463,0 86.338899181,23.749679162,0 86.33886233299999,23.749779765,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="11DC167C0BFE421CECD17B">
+			<name>Blue segment 285</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34792681099999,23.750031271,0 86.34800050600001,23.750081572,0 86.34855321800001,23.749477957,0 86.348442675,23.749427656,0 86.34792681099999,23.750031271,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="11E946C082FC421CECD17B">
+			<name>Blue segment 286</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34022569,23.749830066,0 86.340373079,23.750081572,0 86.34184697800001,23.749125848,0 86.34173643600001,23.748824041,0 86.341589046,23.748824041,0 86.340336232,23.749628861,0 86.34022569,23.749830066,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="11FD64B49057421CECD17B">
+			<name>Blue segment 287</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.356585966,23.750182175,0 86.359718001,23.747113797,0 86.361560375,23.743290901,0 86.362113087,23.741932767,0 86.362223629,23.741832164,0 86.36237101899999,23.741882465,0 86.362518409,23.741731562,0 86.362850036,23.742284876,0 86.36299742600001,23.742133972,0 86.362592104,23.741429754,0 86.362334172,23.741630959,0 86.362039392,23.741077645,0 86.36163406999999,23.741480055,0 86.36181830699999,23.741832164,0 86.36200254400001,23.741983068,0 86.361855154,23.742033369,0 86.361855154,23.741932767,0 86.361670917,23.741781863,0 86.36133929,23.742133972,0 86.36148668,23.742486081,0 86.359681154,23.744296926,0 86.359791696,23.744548433,0 86.360123323,23.744246625,0 86.36008647600001,23.744095721,0 86.360233866,23.744196324,0 86.36148668,23.742737587,0 86.361523527,23.742787888,0 86.36071288300001,23.744598734,0 86.36052864600001,23.74485024,0 86.360233866,23.744397529,0 86.35990223899999,23.744649035,0 86.360307561,23.745504157,0 86.35946006899999,23.747164099,0 86.35665966099999,23.74998097,0 86.356585966,23.750182175,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="12039ED079EC421CECD17B">
+			<name>Blue segment 288</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.356438576,23.750232476,0 86.356512271,23.750282777,0 86.356585966,23.750182175,0 86.356512271,23.750131874,0 86.356438576,23.750232476,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="121670644BE9421CECD17B">
+			<name>Blue segment 289</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.343799894,23.750282777,0 86.344315759,23.749880367,0 86.34656345400001,23.747667111,0 86.34575280999999,23.746208375,0 86.343062945,23.748924643,0 86.343799894,23.750282777,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="12248B65BC52421CECD17B">
+			<name>Blue segment 290</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35629118600001,23.75038338,0 86.356364881,23.750433681,0 86.356438576,23.750333079,0 86.356364881,23.750282777,0 86.35629118600001,23.75038338,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="123C30351494421CECD17B">
+			<name>Blue segment 291</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35618064400001,23.750483982,0 86.35629118600001,23.750483982,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="124C91BECA81421CECD17B">
+			<name>Blue segment 292</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.347410946,23.750534284,0 86.34748464099999,23.750584585,0 86.347963658,23.750081572,0 86.347889963,23.750031271,0 86.347410946,23.750534284,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1253A8E3D85F421CECD17B">
+			<name>Blue segment 293</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.356033254,23.750634886,0 86.356143797,23.750634886,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1269619AC56C421CECD17B">
+			<name>Blue segment 294</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.347263556,23.750685188,0 86.347337251,23.750735489,0 86.347447794,23.750584585,0 86.34737409900001,23.750534284,0 86.347263556,23.750685188,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1279D10EA938421CECD17B">
+			<name>Blue segment 295</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.347079319,23.750836091,0 86.347153014,23.750886393,0 86.347189861,23.75078579,0 86.347079319,23.750836091,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1288B7240CD4421CECD17B">
+			<name>Blue segment 296</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34693192899999,23.750986995,0 86.347005624,23.751037296,0 86.347079319,23.750936694,0 86.347005624,23.750886393,0 86.34693192899999,23.750986995,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="12962E0A2EA6421CECD17B">
+			<name>Blue segment 297</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34965864199999,23.751087598,0 86.349695489,23.750886393,0 86.34910592999999,23.749830066,0 86.34965864199999,23.749125848,0 86.349474405,23.748924643,0 86.348995387,23.749427656,0 86.348884845,23.749427656,0 86.34873745500001,23.749176149,0 86.348626913,23.749226451,0 86.348590065,23.749427656,0 86.348774303,23.749427656,0 86.34965864199999,23.751087598,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="12AFEEC26DAE421CECD17B">
+			<name>Blue segment 298</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.355591085,23.751087598,0 86.355701627,23.751087598,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="12BD82ECABDB421CECD17B">
+			<name>Blue segment 299</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34357880899999,23.7511882,0 86.346858234,23.74796891900001,0 86.346710844,23.747767714,0 86.343873589,23.750483982,0 86.343431419,23.750986995,0 86.34357880899999,23.7511882,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="12CAF84C3C7A421CECD17B">
+			<name>Blue segment 300</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35046928600001,23.749628861,0 86.351501015,23.751238501,0 86.35710183099999,23.745655061,0 86.357212373,23.74525265,0 86.357507153,23.74525265,0 86.360418103,23.742385478,0 86.360676035,23.742033369,0 86.35964430600001,23.740272825,0 86.35046928600001,23.749628861,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="12DFDAEDE02B421CECD17B">
+			<name>Blue segment 301</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.346673997,23.751238501,0 86.34674769199999,23.751288803,0 86.34693192899999,23.751087598,0 86.346858234,23.751037296,0 86.346673997,23.751238501,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="12ECC80C3A89421CECD17B">
+			<name>Blue segment 302</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.33477226399999,23.751288803,0 86.335067044,23.750886393,0 86.335067044,23.750735489,0 86.335177586,23.750735489,0 86.34298925,23.741127946,0 86.34273131800001,23.740826139,0 86.34265762299999,23.741027344,0 86.341146876,23.742888491,0 86.341183724,23.742938792,0 86.340778402,23.743290901,0 86.338162231,23.746560483,0 86.334919654,23.750433681,0 86.33495650099999,23.750534284,0 86.334809111,23.750534284,0 86.334514332,23.750936694,0 86.33477226399999,23.751288803,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="12FC5E680650421CECD17B">
+			<name>Blue segment 303</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.346526607,23.751389405,0 86.346600302,23.751439707,0 86.346673997,23.751339104,0 86.346600302,23.751288803,0 86.346526607,23.751389405,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1301BFE62224421CECD17B">
+			<name>Blue segment 304</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.338530706,23.75159061,0 86.33978352,23.750031271,0 86.339746672,23.749779765,0 86.339451893,23.750031271,0 86.338420164,23.751339104,0 86.338530706,23.75159061,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1319701D6E68421CECD17B">
+			<name>Blue segment 305</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.346268675,23.751640912,0 86.34634237,23.751691213,0 86.346416065,23.75159061,0 86.34634237,23.751540309,0 86.346268675,23.751640912,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1325F5CF807E421CECD17B">
+			<name>Blue segment 306</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35492782999999,23.751741514,0 86.355038372,23.751741514,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="133D8540585D421CECD17B">
+			<name>Blue segment 307</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.346158132,23.751741514,0 86.346231827,23.751791815,0 86.34630552199999,23.751691213,0 86.346231827,23.751640912,0 86.346158132,23.751741514,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="13414504DAE7421CECD17B">
+			<name>Blue segment 308</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.338567553,23.751842117,0 86.338678096,23.751942719,0 86.339894062,23.750534284,0 86.339894062,23.750232476,0 86.33978352,23.750182175,0 86.338825486,23.751439707,0 86.338567553,23.751640912,0 86.338567553,23.751842117,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1353DC0C5BD6421CECD17B">
+			<name>Blue segment 309</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35474359299999,23.751942719,0 86.35481728800001,23.751993021,0 86.354890983,23.751892418,0 86.35481728800001,23.751842117,0 86.35474359299999,23.751942719,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1363DBE4E4A2421CECD17B">
+			<name>Blue segment 310</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.350174506,23.751993021,0 86.350211354,23.751842117,0 86.349806032,23.751087598,0 86.349695489,23.751037296,0 86.34973233700001,23.751339104,0 86.350174506,23.751993021,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="137975B9C19F421CECD17B">
+			<name>Blue segment 311</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.345973895,23.751942719,0 86.34604759,23.751993021,0 86.346158132,23.751842117,0 86.346084437,23.751791815,0 86.345973895,23.751942719,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="13837529B940421CECD17B">
+			<name>Blue segment 312</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34586335199999,23.752043322,0 86.345973895,23.752043322,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="139E29A7E50E421CECD17B">
+			<name>Blue segment 313</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.354596203,23.752093623,0 86.354669898,23.75214392399999,0 86.35478044,23.751993021,0 86.354706745,23.751942719,0 86.354596203,23.752093623,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="13AE08D16D9F421CECD17B">
+			<name>Blue segment 314</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.345789658,23.752093623,0 86.3459002,23.752093623,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="13B7D2D4B2A8421CECD17B">
+			<name>Blue segment 315</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.354448813,23.752244527,0 86.354522508,23.752294828,0 86.35463305,23.75214392399999,0 86.35455935500001,23.752093623,0 86.354448813,23.752244527,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="13C8D1794F66421CECD17B">
+			<name>Blue segment 316</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34560542,23.752294828,0 86.345679115,23.752345129,0 86.345789658,23.752194226,0 86.345715963,23.75214392399999,0 86.34560542,23.752294828,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="13DF6DECF5BC421CECD17B">
+			<name>Blue segment 317</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.342878707,23.752294828,0 86.34295240199999,23.752244527,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="13EDEC6156EF421CECD17B">
+			<name>Blue segment 318</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.350432439,23.752596636,0 86.350579829,23.752395431,0 86.350321896,23.751942719,0 86.350137659,23.752244527,0 86.350321896,23.752596636,0 86.350432439,23.752596636,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="13F97FF97C15421CECD17B">
+			<name>Blue segment 319</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.345347488,23.75254633400001,0 86.345421183,23.752596636,0 86.345531725,23.752445732,0 86.34545803,23.752395431,0 86.345347488,23.75254633400001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="140253769F01421CECD17B">
+			<name>Blue segment 320</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.345273793,23.752596636,0 86.34538433500001,23.752596636,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="141C9263A5FF421CECD17B">
+			<name>Blue segment 321</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.350948303,23.75274754,0 86.36133929,23.742435779,0 86.361007663,23.741983068,0 86.351537863,23.751439707,0 86.35135362600001,23.751339104,0 86.35028504899999,23.749628861,0 86.35046928600001,23.74932705299999,0 86.359939086,23.739769812,0 86.36001278099999,23.739618908,0 86.359754849,23.739216498,0 86.34925332,23.749830066,0 86.350211354,23.751640912,0 86.35039559099999,23.751791815,0 86.350948303,23.75274754,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="142C18613EF8421CECD17B">
+			<name>Blue segment 322</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34512640299999,23.75274754,0 86.34520009800001,23.752797841,0 86.345273793,23.752697238,0 86.34520009800001,23.752646937,0 86.34512640299999,23.75274754,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1434B56E38B1421CECD17B">
+			<name>Blue segment 323</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.332708806,23.752797841,0 86.34247338500001,23.740926741,0 86.341331114,23.7392668,0 86.331713924,23.751339104,0 86.332708806,23.752797841,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="144BE9C1D0C7421CECD17B">
+			<name>Blue segment 324</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.353896101,23.752797841,0 86.353969796,23.752848142,0 86.35448565999999,23.752294828,0 86.354411966,23.752244527,0 86.353896101,23.752797841,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="145773CD4B99421CECD17B">
+			<name>Blue segment 325</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.344979013,23.752898443,0 86.345052708,23.752948745,0 86.34512640299999,23.752848142,0 86.345052708,23.752797841,0 86.344979013,23.752898443,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="146B2527CEF7421CECD17B">
+			<name>Blue segment 326</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34464738600001,23.752999046,0 86.347816268,23.749880367,0 86.346895082,23.748220425,0 86.343763047,23.751238501,0 86.34464738600001,23.752999046,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="147C119FE288421CECD17B">
+			<name>Blue segment 327</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.344721081,23.75314995,0 86.344794776,23.753200251,0 86.34501586099999,23.752948745,0 86.344942166,23.752898443,0 86.344721081,23.75314995,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="148E886FA44F421CECD17B">
+			<name>Blue segment 328</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.353122304,23.75314995,0 86.353232846,23.753250552,0 86.359386374,23.747063496,0 86.360160171,23.745453856,0 86.359754849,23.744699337,0 86.359570611,23.744498131,0 86.35555423700001,23.748471932,0 86.35544369500001,23.748773739,0 86.355406847,23.748673137,0 86.352348507,23.751640912,0 86.35231166,23.751741514,0 86.353122304,23.75314995,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="14939717A13F421CECD17B">
+			<name>Blue segment 329</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.344610538,23.753250552,0 86.344684233,23.753300853,0 86.34475792800001,23.753200251,0 86.344684233,23.75314995,0 86.344610538,23.753250552,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="14A42D171C46421CECD17B">
+			<name>Blue segment 330</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.33672518,23.753602661,0 86.336798875,23.753652962,0 86.338162231,23.751993021,0 86.33812538399999,23.751791815,0 86.338051689,23.751741514,0 86.33687257,23.75314995,0 86.33668833199999,23.753401456,0 86.33672518,23.753602661,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="14B2176C0443421CECD17B">
+			<name>Blue segment 331</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.336798875,23.753854167,0 86.33694626499999,23.754005071,0 86.338272774,23.752395431,0 86.338235926,23.752194226,0 86.338162231,23.75214392399999,0 86.336798875,23.753854167,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="14C2E74EB065421CECD17B">
+			<name>Blue segment 332</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.352348507,23.754055373,0 86.352422202,23.754105674,0 86.352606439,23.75390446899999,0 86.352495897,23.753854167,0 86.352348507,23.754055373,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="14D08E4EFF72421CECD17B">
+			<name>Blue segment 333</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.349695489,23.754256578,0 86.34984287899999,23.754407481,0 86.350027117,23.754206276,0 86.350211354,23.754256578,0 86.350432439,23.754055373,0 86.352532745,23.753300853,0 86.35256959199999,23.753200251,0 86.35220111700001,23.752596636,0 86.351501015,23.75314995,0 86.351095693,23.753200251,0 86.35010081199999,23.754105674,0 86.351243083,23.752948745,0 86.35146416800001,23.753049347,0 86.352127422,23.752596636,0 86.35216427,23.752496033,0 86.351980032,23.752244527,0 86.35201687999999,23.75214392399999,0 86.352237965,23.752345129,0 86.352716982,23.753200251,0 86.352938067,23.752999046,0 86.352237965,23.751842117,0 86.352127422,23.751791815,0 86.350985151,23.752999046,0 86.350690371,23.752646937,0 86.350616676,23.752797841,0 86.350506134,23.75274754,0 86.35046928600001,23.752848142,0 86.350616676,23.753250552,0 86.349695489,23.754256578,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="14E4E8A46457421CECD17B">
+			<name>Blue segment 334</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.349990269,23.754457783,0 86.350211354,23.754910494,0 86.350358744,23.754960795,0 86.350321896,23.755111699,0 86.35039559099999,23.755162,0 86.351611558,23.754256578,0 86.35186949,23.754206276,0 86.35245904999999,23.753803866,0 86.352606439,23.753854167,0 86.352790677,23.75355236,0 86.352680134,23.753351155,0 86.35216427,23.753502059,0 86.349990269,23.754457783,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="14F09C852855421CECD17B">
+			<name>Blue segment 335</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.33495650099999,23.755312904,0 86.336319858,23.753602661,0 86.336061925,23.753200251,0 86.334809111,23.754709289,0 86.33477226399999,23.754860193,0 86.33495650099999,23.755312904,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="150B1AA3325A421CECD17B">
+			<name>Blue segment 336</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.342068063,23.755363206,0 86.34339457199999,23.754608686,0 86.343431419,23.754457783,0 86.341883826,23.74932705299999,0 86.340446774,23.750182175,0 86.340409927,23.750333079,0 86.341552198,23.753803866,0 86.341589046,23.754105674,0 86.342068063,23.755363206,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="151CF7601A4A421CECD17B">
+			<name>Blue segment 337</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.35028504899999,23.755413507,0 86.350321896,23.755312904,0 86.350248201,23.755212302,0 86.350211354,23.755312904,0 86.35028504899999,23.755413507,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1523CE2E26A6421CECD17B">
+			<name>Blue segment 338</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.350321896,23.755514109,0 86.35039559099999,23.755463808,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1530B173A9E5421CECD17B">
+			<name>Blue segment 339</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.33495650099999,23.755614712,0 86.335103891,23.755665013,0 86.3364304,23.754055373,0 86.33639355299999,23.75390446899999,0 86.336246163,23.75390446899999,0 86.335251281,23.755111699,0 86.33495650099999,23.755614712,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="15472C5D8285421CECD17B">
+			<name>Blue segment 340</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.33366684000001,23.755715314,0 86.334256399,23.754960795,0 86.334440637,23.755061398,0 86.33466172200001,23.754658988,0 86.335914536,23.753049347,0 86.336246163,23.75274754,0 86.33934135,23.748874342,0 86.338235926,23.7472144,0 86.332635111,23.754206276,0 86.33366684000001,23.755715314,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1550D7084D32421CECD17B">
+			<name>Blue segment 341</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.339599283,23.755966821,0 86.339746672,23.755815917,0 86.33830962099999,23.751439707,0 86.33830962099999,23.751238501,0 86.339709825,23.749528258,0 86.339451893,23.749025246,0 86.33937819800001,23.749125848,0 86.339415045,23.749226451,0 86.338678096,23.750282777,0 86.33849385800001,23.750433681,0 86.338788638,23.749880367,0 86.33819907900001,23.750584585,0 86.338346469,23.750936694,0 86.338235926,23.750936694,0 86.338272774,23.75078579,0 86.33819907900001,23.750685188,0 86.338051689,23.750685188,0 86.33786745099999,23.750936694,0 86.33786745099999,23.751087598,0 86.338014841,23.7511882,0 86.33819907900001,23.751540309,0 86.338530706,23.752797841,0 86.339599283,23.755966821,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="156E4B57CA89421CECD17B">
+			<name>Blue segment 342</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.350616676,23.755966821,0 86.350690371,23.756017122,0 86.35393294799999,23.752848142,0 86.353785559,23.752848142,0 86.35326969400001,23.753401456,0 86.353159152,23.753401456,0 86.352974914,23.75314995,0 86.35275382899999,23.753351155,0 86.352901219,23.753703264,0 86.352385355,23.754155975,0 86.352274812,23.754055373,0 86.351980032,23.754306879,0 86.35164840500001,23.75435718,0 86.35046928600001,23.755212302,0 86.350432439,23.755363206,0 86.350690371,23.755715314,0 86.351795795,23.754658988,0 86.3517221,23.754860193,0 86.350616676,23.755966821,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="157019ACDE5B421CECD17B">
+			<name>Blue segment 343</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.335103891,23.756067423,0 86.33521443399999,23.756067423,0 86.336540943,23.754457783,0 86.336540943,23.754306879,0 86.3364304,23.754256578,0 86.335103891,23.755765616,0 86.335103891,23.756067423,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="158544E6D662421CECD17B">
+			<name>Blue segment 344</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.340188842,23.756419532,0 86.341589046,23.755564411,0 86.341441656,23.755312904,0 86.341331114,23.75475959,0 86.339967757,23.750634886,0 86.33886233299999,23.751942719,0 86.338714943,23.752244527,0 86.34004145199999,23.756369231,0 86.340188842,23.756419532,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="159BFB44F123421CECD17B">
+			<name>Blue segment 345</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.339746672,23.756469833,0 86.33985721499999,23.756168026,0 86.339672978,23.755966821,0 86.339599283,23.756117725,0 86.339746672,23.756469833,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="15A4636B6921421CECD17B">
+			<name>Blue segment 346</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.338088536,23.757576461,0 86.33963613,23.75672134,0 86.339599283,23.756419532,0 86.338346469,23.752596636,0 86.33694626499999,23.754206276,0 86.33775690900001,23.756771641,0 86.338088536,23.757576461,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="15B029CDC6C3421CECD17B">
+			<name>Blue segment 347</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34048362199999,23.757727365,0 86.341515351,23.757224352,0 86.341994368,23.756872244,0 86.341625893,23.755815917,0 86.340446774,23.756419532,0 86.340151995,23.756671039,0 86.34048362199999,23.757727365,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="15C786F140A3421CECD17B">
+			<name>Blue segment 348</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.33602507800001,23.758733391,0 86.337056807,23.758129775,0 86.337498977,23.757978871,0 86.33768321399999,23.757777666,0 86.336614638,23.754658988,0 86.336356705,23.754860193,0 86.33521443399999,23.756268628,0 86.33602507800001,23.758733391,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="15D9949CB175421CECD17B">
+			<name>Blue segment 349</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.33849385800001,23.758833993,0 86.3400783,23.757978871,0 86.339672978,23.756872244,0 86.33812538399999,23.757827968,0 86.33849385800001,23.758833993,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="15E170B178BC421CECD17B">
+			<name>Blue segment 350</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.336246163,23.759538211,0 86.33602507800001,23.758984897,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="15FED25ED939421CECD17B">
+			<name>Blue segment 351</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34346826700001,23.759739416,0 86.344831623,23.759085499,0 86.343984132,23.756067423,0 86.34254708,23.756821942,0 86.34346826700001,23.759739416,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="160B92E4D75B421CECD17B">
+			<name>Blue segment 352</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.34313664,23.75989032,0 86.343320877,23.759739416,0 86.342362843,23.756771641,0 86.343947284,23.755866218,0 86.343652504,23.75475959,0 86.343247182,23.754860193,0 86.342068063,23.755564411,0 86.341920673,23.755514109,0 86.341699588,23.75475959,0 86.341589046,23.754608686,0 86.341515351,23.754658988,0 86.341589046,23.754608686,0 86.341589046,23.75435718,0 86.340631012,23.751490008,0 86.340004605,23.749226451,0 86.340778402,23.748773739,0 86.3400783,23.74932705299999,0 86.340188842,23.749628861,0 86.341589046,23.748673137,0 86.341810131,23.748673137,0 86.34184697800001,23.748321028,0 86.344721081,23.745504157,0 86.345163251,23.744950843,0 86.345715963,23.745805964,0 86.34575280999999,23.74600717,0 86.346158132,23.745554458,0 86.34564226800001,23.744699337,0 86.345715963,23.744598734,0 86.34582650500001,23.74474963799999,0 86.346121285,23.744397529,0 86.34564226800001,23.743743612,0 86.345494878,23.743693311,0 86.34531063999999,23.743995119,0 86.34556857299999,23.744397529,0 86.345531725,23.744498131,0 86.34173643600001,23.748220425,0 86.341257419,23.746761689,0 86.341257419,23.746459881,0 86.343873589,23.743190298,0 86.342805012,23.741580658,0 86.338346469,23.747113797,0 86.339157113,23.748321028,0 86.339525588,23.748723438,0 86.341073181,23.746661086,0 86.341183724,23.746761689,0 86.34147850399999,23.747667111,0 86.34147850399999,23.747918618,0 86.34111002900001,23.746912592,0 86.34004145199999,23.748270727,0 86.340004605,23.74842163,0 86.34011514700001,23.748371329,0 86.340188842,23.748522233,0 86.339894062,23.748673137,0 86.339746672,23.748572534,0 86.339525588,23.748874342,0 86.33993091000001,23.749880367,0 86.34302609700001,23.759840018,0 86.34313664,23.75989032,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="1613A6AA31B7421CECD17B">
+			<name>Blue segment 353</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.341441656,23.760644839,0 86.34295240199999,23.759940621,0 86.342031216,23.757073449,0 86.34055731700001,23.75792857,0 86.341441656,23.760644839,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="162AD4A76A6D421CECD17B">
+			<name>Blue segment 354</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.341146876,23.760846044,0 86.34129426600001,23.760594537,0 86.34004145199999,23.75672134,0 86.33985721499999,23.756369231,0 86.339746672,23.756469833,0 86.339746672,23.756620737,0 86.341146876,23.760846044,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="163FB6ED0CDE421CECD17B">
+			<name>Blue segment 355</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.339415045,23.761600563,0 86.340962639,23.760846044,0 86.3400783,23.758129775,0 86.338530706,23.759035198,0 86.339415045,23.761600563,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="164E0B1BCA44421CECD17B">
+			<name>Blue segment 356</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.33919396,23.761801768,0 86.33930450299999,23.761600563,0 86.337793757,23.757274654,0 86.336540943,23.753351155,0 86.338051689,23.751540309,0 86.337720062,23.751137899,0 86.33646724800001,23.752697238,0 86.336540943,23.752948745,0 86.336356705,23.752797841,0 86.336172468,23.753099648,0 86.33646724800001,23.753652962,0 86.337977994,23.758381282,0 86.33886233299999,23.760846044,0 86.339083418,23.76170116500001,0 86.33919396,23.761801768,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="16576B8DB64A421CECD17B">
+			<name>Blue segment 357</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.33893602800001,23.761852069,0 86.339009723,23.76170116500001,0 86.33812538399999,23.759186102,0 86.33646724800001,23.760141826,0 86.33713050199999,23.762254479,0 86.336356705,23.760091525,0 86.338051689,23.759135801,0 86.338088536,23.758984897,0 86.337720062,23.757978871,0 86.337425282,23.758180077,0 86.337277892,23.758129775,0 86.337241045,23.758280679,0 86.336983112,23.75833098,0 86.33602507800001,23.758884294,0 86.33521443399999,23.756671039,0 86.335103891,23.756117725,0 86.33484595900001,23.755514109,0 86.334809111,23.755111699,0 86.334624874,23.754960795,0 86.334477484,23.755162,0 86.33477226399999,23.755564411,0 86.33713050199999,23.762656889,0 86.337277892,23.762707191,0 86.337609519,23.762455684,0 86.33893602800001,23.761852069,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="166C5481305B421CECD17B">
+			<name>Blue segment 358</name>
+			<styleUrl>#__managed_style_0DC6BB5E51421CECD1C4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					86.337093655,23.762908396,0 86.33466172200001,23.755665013,0 86.334256399,23.755212302,0 86.33366684000001,23.755966821,0 86.332450873,23.754206276,0 86.33466172200001,23.751339104,0 86.33440378900001,23.751037296,0 86.332782501,23.753049347,0 86.33267195800001,23.753049347,0 86.331529687,23.751288803,0 86.341404809,23.73881408800001,0 86.341073181,23.73841167799999,0 86.340852097,23.738562582,0 86.33307728,23.74796891900001,0 86.332966738,23.74796891900001,0 86.33186131399999,23.746208375,0 86.33985721499999,23.736399627,0 86.33978352,23.736248723,0 86.34011514700001,23.736399627,0 86.340409927,23.73609782,0 86.340262537,23.735846313,0 86.347779421,23.726641181,0 86.348184743,23.726037566,0 86.347963658,23.725735758,0 86.347816268,23.725836361,0 86.340188842,23.735142095,0 86.334514332,23.741781863,0 86.332782501,23.739769812,0 86.333261518,23.739015293,0 86.33849385800001,23.732425827,0 86.337425282,23.730765885,0 86.337388434,23.73056468,0 86.34512640299999,23.720957138,0 86.346268675,23.722717682,0 86.346673997,23.722264971,0 86.345789658,23.720856535,0 86.34556857299999,23.721108041,0 86.345715963,23.721208644,0 86.345715963,23.721309247,0 86.34556857299999,23.721359548,0 86.34560542,23.721258945,0 86.34538433500001,23.721007439,0 86.34531063999999,23.72065533,0 86.345531725,23.720856535,0 86.345679115,23.720705631,0 86.345273793,23.720051715,0 86.341625893,23.724578829,0 86.340925791,23.725333348,0 86.339894062,23.723774009,0 86.343799894,23.718894786,0 86.344057826,23.719095991,0 86.344794776,23.720303221,0 86.345089556,23.720001414,0 86.344942166,23.719800208,0 86.345236945,23.71985051,0 86.344499996,23.718643279,0 86.344278911,23.718945087,0 86.34413152099999,23.718995388,0 86.343689352,23.71829117,0 86.343505114,23.718442074,0 86.34339457199999,23.718693581,0 86.343173487,23.718794183,0 86.330719042,23.730866488,0 86.330387415,23.731168295,0 86.329355686,23.72935745,0 86.34269447,23.716379722,0 86.34247338500001,23.716178517,0 86.329982093,23.728049617,0 86.328987211,23.726289072,0 86.34147850399999,23.714267069,0 86.34122057099999,23.71391496,0 86.341073181,23.714065864,0 86.340999486,23.713965261,0 86.341146876,23.713713755,0 86.339746672,23.711450198,0 86.33948873999999,23.711802307,0 86.339562435,23.711902909,0 86.33985721499999,23.711802307,0 86.339599283,23.712003512,0 86.340888944,23.71416646600001,0 86.340704707,23.714468274,0 86.330203178,23.724427925,0 86.330055788,23.724478226,0 86.329097754,23.722868586,0 86.329060906,23.722667381,0 86.339267655,23.711752005,0 86.339083418,23.711399897,0 86.338972876,23.711450198,0 86.33248772100001,23.71829117,0 86.331234907,23.71627912,0 86.331234907,23.716027613,0 86.33421955199999,23.712808332,0 86.33292989100001,23.710494474,0 86.3364304,23.706721879,0 86.33646724800001,23.706570975,0 86.336209315,23.706118263,0 86.336209315,23.70596736,0 86.33687257,23.705313443,0 86.33701996000001,23.705414046,0 86.34184697800001,23.713713755,0 86.34228914800001,23.713261044,0 86.34239968999999,23.713261044,0 86.343947284,23.715977312,0 86.348258438,23.711248993,0 86.347153014,23.709387846,0 86.348332133,23.708130314,0 86.34873745500001,23.708633327,0 86.353122304,23.71552460099999,0 86.35400664300001,23.714417973,0 86.354522508,23.715172492,0 86.354154033,23.715675504,0 86.354448813,23.716178517,0 86.353896101,23.716832434,0 86.35400664300001,23.716983337,0 86.354154033,23.716933036,0 86.354411966,23.716580927,0 86.35492782999999,23.717234844,0 86.357470306,23.714820383,0 86.357580848,23.714518575,0 86.35857573,23.713562851,0 86.359165289,23.714669479,0 86.35813356,23.715725806,0 86.357949323,23.71552460099999,0 86.356807051,23.71668153,0 86.361228747,23.725132143,0 86.362960579,23.723472201,0 86.363513291,23.72422672,0 86.36410284999999,23.723623105,0 86.366497936,23.72699329,0 86.365871529,23.727999315,0 86.36635054600001,23.728653232,0 86.366018919,23.72935745,0 86.36579783400001,23.729458052,0 86.365871529,23.729558655,0 86.365392512,23.73056468,0 86.36528196899999,23.730614981,0 86.365318817,23.730816186,0 86.363918613,23.733582756,0 86.365097732,23.73494089,0 86.36472925699999,23.735695409,0 86.36609261300001,23.738059569,0 86.366571631,23.737606858,0 86.36690325799999,23.738160172,0 86.36697695300001,23.738059569,0 86.36708749500001,23.73810987,0 86.36697695300001,23.738311075,0 86.36730858,23.738763787,0 86.36752966500001,23.7392668,0 86.368119224,23.738713486,0 86.368156072,23.738864389,0 86.36764020699999,23.739417703,0 86.368119224,23.740272825,0 86.368745631,23.73966921,0 86.36881932599999,23.739769812,0 86.368229767,23.740423729,0 86.368303462,23.740524331,0 86.36852454700001,23.740373427,0 86.368340309,23.740725536,0 86.368487699,23.740977043,0 86.36863508899999,23.740977043,0 86.368598241,23.741178248,0 86.368671936,23.741379453,0 86.368450852,23.74127885,0 86.368119224,23.74168126,0 86.368229767,23.741932767,0 86.368008682,23.741781863,0 86.368045529,23.742083671,0 86.367934987,23.742083671,0 86.367861292,23.741932767,0 86.36771390200001,23.742033369,0 86.367677055,23.742184273,0 86.36775075,23.742385478,0 86.367492817,23.742234574,0 86.367198038,23.742586683,0 86.36730858,23.742737587,0 86.367271733,23.74283819,0 86.367050648,23.742687286,0 86.36671902000001,23.743039395,0 86.366755868,23.743290901,0 86.366571631,23.743139997,0 86.366240003,23.743492106,0 86.366313698,23.743743612,0 86.366166308,23.74364301,0 86.365982071,23.743743612,0 86.365760986,23.743995119,0 86.365871529,23.744196324,0 86.365760986,23.744246625,0 86.365650444,23.744095721,0 86.365318817,23.74444783,0 86.365392512,23.744649035,0 86.36517142700001,23.744548433,0 86.365024037,23.74474963799999,0 86.365024037,23.745001144,0 86.364876647,23.74485024,0 86.36454501999999,23.745202349,0 86.36454501999999,23.745453856,0 86.364434477,23.745353253,0 86.364323935,23.745453856,0 86.36425024,23.745353253,0 86.364323935,23.745152048,0 86.36410284999999,23.74474963799999,0 86.363844918,23.744699337,0 86.36395546,23.744498131,0 86.36362383300001,23.743944818,0 86.363476443,23.743894516,0 86.363513291,23.743693311,0 86.363329053,23.74339150400001,0 86.36310796799999,23.7432406,0 86.363144816,23.743089696,0 86.362739494,23.742486081,0 86.362776341,23.742385478,0 86.362481561,23.741932767,0 86.362223629,23.742083671,0 86.359754849,23.747315003,0 86.356364881,23.750584585,0 86.353785559,23.753250552,0 86.350616676,23.756268628,0 86.349548099,23.754256578,0 86.34965864199999,23.754005071,0 86.35046928600001,23.75314995,0 86.349953422,23.752345129,0 86.349953422,23.751942719,0 86.348700608,23.749628861,0 86.344684233,23.753502059,0 86.344536844,23.753401456,0 86.343541962,23.751540309,0 86.34328403000001,23.750936694,0 86.343541962,23.750685188,0 86.343652504,23.750433681,0 86.34298925,23.74932705299999,0 86.342805012,23.748824041,0 86.34295240199999,23.748522233,0 86.343726199,23.747868316,0 86.34556857299999,23.745956868,0 86.345236945,23.745302952,0 86.345089556,23.745302952,0 86.341957521,23.74842163,0 86.343763047,23.754608686,0 86.344979013,23.759186102,0 86.343431419,23.759940621,0 86.34321033499999,23.759940621,0 86.3422523,23.760493935,0 86.339415045,23.761801768,0 86.339230808,23.761751467,0 86.33893602800001,23.762053274,0 86.337093655,23.762908396,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

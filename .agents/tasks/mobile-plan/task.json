@@ -1,0 +1,7 @@
+{
+  "task_id": "task-mobile-plan",
+  "task_description": "Make the entire BHURAKSHAK mine-safety dashboard fully mobile responsive (320px–768px) and add a sticky bottom navigation bar for mobile devices.",
+  "status": "pending",
+  "feature_order": ["FEAT-001", "FEAT-002"],
+  "blocked_reason": null
+}

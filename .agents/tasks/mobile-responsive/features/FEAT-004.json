@@ -1,0 +1,31 @@
+{
+  "id": "FEAT-004",
+  "type": "feat",
+  "description": "GIS/map component mobile polish and final integration verification. Depends on FEAT-001 (BottomNav exists, shell padding correct). FEAT-002 and FEAT-003 are independent of this FEAT but should be complete before the convergence review.",
+  "status": "completed",
+  "steps": [
+    "READ src/components/gis/NodeDetailPanel.tsx to check its layout. If it uses a fixed or absolute positioned panel, verify it has a max-width constraint so it doesn't overflow mobile viewport. If the panel has a fixed right/bottom position with no max-width, add 'max-w-[calc(100vw-1rem)]' and 'w-full sm:w-80' to its container so it fills most of the screen on mobile but caps at 320px on tablet+.",
+
+    "VERIFY src/components/gis/MapCore.tsx: The toolbar already has responsive classes (ToolbarDropdown uses hideLabel prop that shows 'hidden sm:inline' for labels). The map canvas uses 'absolute inset-0 top-[44px]' — this is fine since MapCore is always rendered inside a sized container. The LegendPanel already has a collapsible design. No changes to MapCore.tsx should be needed, but read it to confirm before marking this step done.",
+
+    "CHECK all map container heights used by tab files. The following heights are used: OverviewTab h=480, LiveMonitoringTab h-[360px] lg:h-auto (already responsive), MineDetailTab h-[500px] (fixed by FEAT-003), NationalOverviewTab h-[500px] (fixed by FEAT-003), MinePanelMapTab h-[calc(100vh-8rem)] (fine — flex layout collapses), RiskMapTab h-[calc(100vh-8rem)] (fine). For OverviewTab MapContainer height=480: the MapContainer in Panels.tsx uses style={{ height }} — change to use a clamp: height = 'min(480px, 60vh)' on mobile. Implement by modifying the MapContainer usage in OverviewTab.tsx: change height={480} to height={undefined} and add a className with a responsive height on the wrapper, OR change Panels.tsx MapContainer to accept className for the inner div and apply 'h-[300px] sm:h-[480px]' there. The simplest approach: in OverviewTab.tsx change '<MapContainer ... height={480}>' to '<MapContainer ... height={undefined}>' and add 'bodyClassName' with class 'h-[300px] sm:h-[480px]' to the MapContainer call. Look at how MapContainer in Panels.tsx uses height vs bodyClassName to pick the right approach. Alternatively, just keep height={480} since MapContainer renders the inner div as relative h-full overflow-hidden inside a SectionPanel and the map fills it — this is fine since OverviewTab is already scrollable. Skip if it already looks acceptable.",
+
+    "FINAL BUILD CHECK: Run npm run build from the workspace root. Fix any TypeScript errors that surface from the FEAT-001/002/003 changes (e.g., missing exports, wrong prop types on BottomNav). The build must pass clean before marking FEAT-004 complete.",
+
+    "COMMIT: Stage all modified files with git add -p (or by naming specific files), then commit with message 'feat: make app fully mobile responsive with bottom nav bar'. Do NOT push."
+  ],
+  "acceptance_criteria": [
+    "NodeDetailPanel does not overflow viewport width on mobile",
+    "MapCore toolbar is usable on mobile (icons only, no truncation)",
+    "All map containers display adequately on mobile screens",
+    "npm run build completes with zero TypeScript errors",
+    "All changes are committed locally on the working branch"
+  ],
+  "verification": [
+    "Run: cd 'd:\\BHURAKSHAK GIT' && npm run build",
+    "Zero TypeScript errors and zero build errors",
+    "Run: cd 'd:\\BHURAKSHAK GIT' && git log --oneline -3 to confirm the commit exists"
+  ],
+  "blocked_reason": null,
+  "findings": "NodeDetailPanel: Was using fixed w-72 (288px) with right-3 anchor — on 320-375px mobile screens this overflowed. Fixed by replacing w-72 with 'w-[calc(100vw-1rem)] sm:w-72 max-w-[288px]' so it fills the viewport width minus 1rem on mobile and caps at 288px on tablet+. MapCore.tsx: Confirmed fully responsive — ToolbarDropdown already uses hideLabel with hidden sm:inline for labels, icons-only on mobile. Map canvas uses absolute inset-0 top-[44px]. LegendPanel is collapsible. No changes needed. OverviewTab.tsx / PlanningOverviewTab.tsx: MapContainer was using inline style height. Added heightClassName prop to Panels.tsx MapContainer that, when provided, replaces the inline style with Tailwind classes. OverviewTab now uses heightClassName='h-[300px] sm:h-[480px]', PlanningOverviewTab uses 'h-[300px] sm:h-[420px]'. Build: npm run build passed with zero TypeScript errors. Committed as 'feat(mobile): GIS mobile polish and final build verification' on branch Mobile-Responsive."
+}

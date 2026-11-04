@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:ex="http://earth.google.com/kml/ext">
+<Document id="document">
+	<ex:extension>base64;CooBCoEBCn8KAggBEnkKdwokCiAKAwjQDxoHCNLtZRD_ASEAAAAAAADwPykAAAAAAAAAABgAEg8KCAitgO8HEP8BEKAfGAAaGgoHCP___wcQQBIICK2A7wcQ_wEYoB8gACgAIgkIARIFCP___wcqFwgBEggI____BxD_ARkAAAAAAADwPyAAEgQIARAA</ex:extension>
+	<name>Mine boundary</name>
+	<gx:CascadingStyle kml:id="__managed_style_0B716A707F421CEF8B56_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>12</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>00ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0B716A707F421CEF8B56_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>00ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0B716A707F421CEF8B56">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0B716A707F421CEF8B56_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0B716A707F421CEF8B56_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_0E7370A7CC421CEC576F_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0E7370A7CC421CEC576F_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0E7370A7CC421CEC576F">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0E7370A7CC421CEC576F_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0E7370A7CC421CEC576F_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="0A75853B28421CEF8B43">
+		<ex:extension>base64;GgA</ex:extension>
+		<name>Mine boundary</name>
+		<styleUrl>#__managed_style_0E7370A7CC421CEC576F</styleUrl>
+		<Placemark id="14DEF13C44421CEF8B43">
+			<name>Moonidih Underground Mine Mine boundary </name>
+			<LookAt>
+				<longitude>86.34377207878934</longitude>
+				<latitude>23.78876917326428</latitude>
+				<altitude>228.3619636340135</altitude>
+				<heading>-11.35341903951027</heading>
+				<tilt>26.47417703075235</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>42474.74792512134</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0B716A707F421CEF8B56</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							86.33737944376114,23.76384613530099,0 86.33531481835244,23.7629574801492,0 86.33360322695535,23.75963630541917,0 86.33284213116889,23.75516943516121,0 86.33163265533598,23.75423926569695,0 86.33097164233114,23.75117051160251,0 86.32990234484824,23.75059411802447,0 86.32951577697818,23.74985088250548,0 86.32948598411409,23.74923120072384,0 86.32898721122643,23.74816809060579,0 86.32922450626761,23.74511976437134,0 86.32918023347408,23.74455187789083,0 86.32853951835962,23.74288658786212,0 86.32874836939283,23.74054131980538,0 86.33053146909295,23.73759963951882,0 86.3308335449463,23.73561321046824,0 86.33127365066707,23.73449045949126,0 86.33077486791089,23.73380954348378,0 86.33054568840788,23.73305164946384,0 86.32964711186249,23.73174112490901,0 86.32933978090833,23.73155199276588,0 86.32883326518991,23.73092034086167,0 86.32857851746245,23.7296124060105,0 86.32854541280425,23.72840512824587,0 86.32819379147411,23.72531287480335,0 86.3284494445665,23.72198933872377,0 86.33034979108388,23.71877729879635,0 86.33063612139011,23.71586525872356,0 86.33246646812361,23.71395050806237,0 86.33279578047933,23.71191849743762,0 86.33195009142416,23.71041031835461,0 86.33308709852,23.70888704143935,0 86.33424085636925,23.70782028270107,0 86.33478623221464,23.70713829928708,0 86.33579353601756,23.706520969757,0 86.33599997760517,23.7061504568979,0 86.33598136753143,23.70572522431021,0 86.33617909484391,23.70531707202073,0 86.33684348642262,23.70503429091868,0 86.33741929469053,23.70519968408253,0 86.33769933666655,23.70526676322811,0 86.33782500355366,23.70537575004016,0 86.33830410943348,23.70531344307323,0 86.33907250802598,23.7056025768286,0 86.33977844741635,23.70596044086483,0 86.34051595694693,23.70636144793701,0 86.34095471855014,23.70656217017808,0 86.34195951418445,23.70641707111179,0 86.34226522306459,23.70661137681497,0 86.34564760038747,23.70731226364761,0 86.34777641736277,23.70759319259762,0 86.3488384733912,23.70770795065875,0 86.34975696957991,23.70812478340651,0 86.35160522563807,23.71073634969969,0 86.35283725984894,23.71255497621727,0 86.35460921709223,23.71373476072573,0 86.35547949169433,23.71409147265375,0 86.35727636983016,23.71363858848591,0 86.35787513070575,23.71296914305784,0 86.35860106720936,23.71277511630824,0 86.35940959417482,23.71302039045188,0 86.36020457868598,23.71382923085487,0 86.35976556921615,23.71518215488589,0 86.35838426867852,23.71638652308826,0 86.35903027713283,23.71730546281709,0 86.36084771144807,23.71959751556519,0 86.36412322533371,23.72162600111585,0 86.36661477602185,23.72403465181365,0 86.3674366091372,23.72898392798554,0 86.36701644724072,23.73075497788091,0 86.36601643714469,23.73203721637195,0 86.36567215789754,23.73267440637448,0 86.36581788960861,23.73373332640556,0 86.36647322500288,23.73506941335133,0 86.3680983970787,23.73739751447641,0 86.36969456558489,23.73899392763337,0 86.36942643229972,23.740713935743,0 86.36854252504156,23.74194576064381,0 86.36789456534139,23.74282300870664,0 86.36707181480932,23.74387508259196,0 86.36607511948436,23.74486461280385,0 86.36467587137389,23.74592846156235,0 86.36361681014802,23.74583793758767,0 86.36304013847082,23.74481496848392,0 86.36240717943939,23.74424156724351,0 86.36170144348472,23.74469108851302,0 86.36056978419548,23.74681259921821,0 86.35873828920211,23.74898634706494,0 86.35711269096869,23.75033627643885,0 86.35497688177661,23.75297005327831,0 86.35414069101812,23.75363567788008,0 86.35328824004726,23.75431902898219,0 86.35261733027725,23.7555876731686,0 86.35182012423356,23.75646105083688,0 86.35133904167942,23.75680831510716,0 86.3506474790789,23.75679958536695,0 86.34995277108099,23.75636095313184,0 86.34968746763766,23.75586019268791,0 86.34944490413453,23.75497270811106,0 86.34901102843222,23.75478170804035,0 86.34793305551341,23.75494397055473,0 86.34461859946867,23.7611813653929,0 86.33737944376114,23.76384613530099,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

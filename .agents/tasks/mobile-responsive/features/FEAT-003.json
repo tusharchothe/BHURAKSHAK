@@ -1,0 +1,44 @@
+{
+  "id": "FEAT-003",
+  "type": "feat",
+  "description": "Fix mobile responsiveness for all planner and regulator tab files. Independent of FEAT-002 (different files), but depends on FEAT-001 for DashboardShell bottom padding.",
+  "status": "completed",
+  "steps": [
+    "MODIFY src/components/planner/DeformationHistoryTab.tsx: (a) Change top header from 'flex items-center justify-between' to 'flex flex-col sm:flex-row gap-3 items-start sm:items-center' so the time-range toggle buttons wrap below the title on small screens. (b) Change the bottom stats grid from 'grid-cols-3 gap-4' to 'grid-cols-1 sm:grid-cols-3 gap-4' so the three stats stack vertically on phone.",
+
+    "MODIFY src/components/planner/RiskTrendsTab.tsx: Change the bottom flex row from 'flex items-center justify-between' to 'flex flex-col sm:flex-row gap-3 items-start sm:items-center' so the description text and 'Generate Trend Report' button don't overlap on narrow screens.",
+
+    "MODIFY src/components/planner/PanelComparisonTab.tsx: Change the analytical summary row at the bottom from 'flex items-center justify-between' to 'flex flex-col sm:flex-row gap-3 items-start sm:items-center' so the text and Export button wrap on mobile.",
+
+    "MODIFY src/components/planner/PlanningIntelligenceTab.tsx: (a) Change top header from 'flex items-center justify-between' to 'flex flex-col sm:flex-row gap-3 items-start sm:items-center' so the 'Prototype AI Active' badge wraps gracefully. (b) In each scenario card, the inner content div has class 'ml-14' which causes overflow on very narrow screens. Change 'space-y-4 ml-14' to 'space-y-4 sm:ml-14 ml-0'.",
+
+    "VERIFY: The following planner files already have correct responsive classes and need NO changes: PlanningOverviewTab.tsx (grid gap-4 sm:grid-cols-2 xl:grid-cols-3, overflow-x-auto on table, grid gap-5 lg:grid-cols-3 for map row), MinePanelMapTab.tsx (flex flex-col md:flex-row, w-full md:w-80 for detail panel), MonitoringCoverageTab.tsx (grid lg:grid-cols-3 with full-width map), ReportsTab.tsx (grid md:grid-cols-2 lg:grid-cols-3).",
+
+    "MODIFY src/components/regulator/NationalOverviewTab.tsx: (a) Change top header row from 'flex items-center justify-between' to 'flex flex-col sm:flex-row gap-3 items-start sm:items-center' so the two filter buttons wrap. (b) Change map container height from 'h-[500px]' to 'h-[280px] sm:h-[500px]' so the national map doesn't dominate mobile screens. (c) The map legend in the bottom-right (absolute positioned div) — add 'max-h-40 overflow-y-auto sm:max-h-none' to prevent it from extending off-screen on small devices.",
+
+    "MODIFY src/components/regulator/MinePortfolioTab.tsx: Change the top action row from 'flex items-center justify-between' to 'flex flex-col sm:flex-row gap-3 items-start sm:items-center' so the search input and filter button wrap cleanly on mobile. The table already has overflow-x-auto wrapper — no table changes needed.",
+
+    "MODIFY src/components/regulator/MineDetailTab.tsx: Change map container height from 'h-[500px]' to 'h-[280px] sm:h-[500px]'.",
+
+    "MODIFY src/components/regulator/ReviewCenterTab.tsx: Change the evidence grid from 'grid grid-cols-2 gap-4' to 'grid grid-cols-1 sm:grid-cols-2 gap-4' so evidence and attached-reports cards don't cramp on phones.",
+
+    "VERIFY: The following regulator files already have correct responsive classes and need NO changes: MonitoringHealthTab.tsx (grid sm:grid-cols-2 lg:grid-cols-4, grid lg:grid-cols-2), RegulatorReportsTab.tsx (grid md:grid-cols-2 lg:grid-cols-3)."
+  ],
+  "acceptance_criteria": [
+    "DeformationHistoryTab header and stats grid wrap on mobile",
+    "RiskTrendsTab bottom row wraps on mobile",
+    "PanelComparisonTab summary row wraps on mobile",
+    "PlanningIntelligenceTab header wraps and scenario indentation doesn't overflow",
+    "NationalOverviewTab map is shorter on mobile, filter buttons wrap, legend doesn't overflow",
+    "MinePortfolioTab action row wraps on mobile",
+    "MineDetailTab map is shorter on mobile",
+    "ReviewCenterTab evidence grid is 1-column on phone",
+    "npm run build completes with zero TypeScript errors"
+  ],
+  "verification": [
+    "Run: cd 'd:\\BHURAKSHAK GIT' && npm run build",
+    "Zero TypeScript errors and zero build errors"
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}

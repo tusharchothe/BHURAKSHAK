@@ -1,0 +1,25 @@
+{
+  "id": "FEAT-001",
+  "type": "feat",
+  "description": "Create BottomNav component and update layout shell (DashboardShell, Header) to be fully mobile responsive. This is the foundation that all other FEATs depend on.",
+  "status": "completed",
+  "steps": [
+    "CREATE src/components/layout/BottomNav.tsx — mobile-only fixed bottom nav (md:hidden). Props: role: UserRole, items: NavItem[], activeTab?: string, onTabChange?: (id: string) => void, accent?: string. Internally filter items to at most 5 per role using BOTTOM_NAV_ITEMS map: operator=['overview','live','alerts','sensors','ai'], planner=['overview','map','history','trends','intelligence'], regulator=['overview','portfolio','review','health','reports']. Each button: icon (size-5) + label (text-[9px] uppercase). Active item coloured with accent prop. Add a 2px accent-coloured top border indicator on active item. Root nav: fixed bottom-0 left-0 right-0 z-40 bg-[#1a2035] border-t border-white/10 flex items-stretch, with style paddingBottom: env(safe-area-inset-bottom, 0px). Export NavItem interface (re-exports Sidebar's interface shape).",
+    "MODIFY src/components/layout/DashboardShell.tsx: (a) Import BottomNav from './BottomNav'. (b) Change inner scroll div from 'flex-1 overflow-auto p-6' to 'flex-1 overflow-auto p-3 sm:p-6 pb-20 md:pb-6' so content is not hidden under the bottom nav on mobile. (c) Change page-header bar padding from 'px-6 py-4' to 'px-3 sm:px-6 py-3 sm:py-4'. (d) On the page-header bar's content, the title div and the live-status pill already use flex-wrap — keep it. (e) Render <BottomNav role={role} items={nav} activeTab={activeTab} onTabChange={onTabChange} accent={accent} /> after <FloatingAIChat /> inside the outer flex column.",
+    "MODIFY src/components/layout/Header.tsx: In the logo block, wrap the subtitle 'Mine Safety Sentinel' span with 'hidden sm:block' class so on very narrow phones (<640px) only the logo image and BHURAKSHAK text show, preventing header overflow."
+  ],
+  "acceptance_criteria": [
+    "BottomNav appears at bottom of screen on mobile (< 768px), is hidden at md+",
+    "BottomNav shows correct 5 items per role with icons and labels",
+    "Tapping a bottom nav item switches the active tab (onTabChange fires)",
+    "Active item is highlighted in role accent colour",
+    "Main content area scrolls without any content hidden under the bottom nav",
+    "npm run build completes with zero TypeScript errors"
+  ],
+  "verification": [
+    "Run: cd 'd:\\BHURAKSHAK GIT' && npm run build",
+    "Zero TypeScript errors and zero build errors"
+  ],
+  "blocked_reason": null,
+  "findings": "Build succeeded with zero TypeScript errors (3318 modules transformed). BottomNav.tsx created with role-aware 5-item filtering and iOS safe-area support. DashboardShell updated with BottomNav import, responsive padding (pb-20 md:pb-6, px-3 sm:px-6, py-3 sm:py-4), and BottomNav rendered after FloatingAIChat. Header subtitle hidden on sm breakpoint (hidden sm:block) to prevent overflow on narrow phones."
+}
