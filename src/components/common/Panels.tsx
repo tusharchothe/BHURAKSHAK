@@ -58,8 +58,9 @@ export function MapContainer({
   actions,
   children,
   height = 420,
+  heightClassName,
   className,
-}: Partial<SectionPanelProps> & { height?: number }) {
+}: Partial<SectionPanelProps> & { height?: number; heightClassName?: string }) {
   return (
     <SectionPanel
       title={title}
@@ -69,8 +70,8 @@ export function MapContainer({
       bodyClassName="p-0"
     >
       <div
-        style={{ height: height }}
-        className="relative w-full overflow-hidden rounded-b-md"
+        style={heightClassName ? undefined : { height }}
+        className={cn("relative w-full overflow-hidden rounded-b-md", heightClassName)}
       >
         {children ?? (
           <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-muted-foreground">

@@ -83,6 +83,7 @@ export function PlanningOverviewTab() {
             title="Strategic Mine Overview"
             description="Showing structural gaps and historical risk zones."
             className="bg-white border border-gray-200 rounded-lg shadow-sm"
+            heightClassName="h-[300px] sm:h-[420px]"
           >
             <MapCore />
           </MapContainer>

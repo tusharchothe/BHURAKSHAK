@@ -96,7 +96,7 @@ export function NodeDetailPanel({ nodeId, onClose }: NodeDetailPanelProps) {
   const risk = node ? classifyRisk(node.lat, node.lon, polygons) : "none";
 
   return (
-    <div className="absolute top-[52px] right-3 w-72 bg-white rounded-xl shadow-2xl border border-gray-200 z-30 max-h-[calc(100%-64px)] overflow-auto animate-in slide-in-from-right-2 duration-200">
+    <div className="absolute top-[52px] right-3 w-[calc(100vw-1rem)] sm:w-72 max-w-[288px] bg-white rounded-xl shadow-2xl border border-gray-200 z-30 max-h-[calc(100%-64px)] overflow-auto animate-in slide-in-from-right-2 duration-200">
 
       {/* ── Header ──────────────────────────────────────────────────────── */}
       <div className="flex items-start justify-between px-4 pt-3 pb-3 border-b border-gray-100">

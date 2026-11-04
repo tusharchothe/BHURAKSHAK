@@ -131,7 +131,7 @@ export function OverviewTab() {
             title="Mine Overview"
             description="GIS map — live KML layers: boundary, panels, risk zones, sensor nodes."
             className="bg-white border border-gray-200 rounded-lg shadow-sm"
-            height={480}
+            heightClassName="h-[300px] sm:h-[480px]"
           >
             <MapCore />
           </MapContainer>
