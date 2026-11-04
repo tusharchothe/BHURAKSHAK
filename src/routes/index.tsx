@@ -136,24 +136,24 @@ function Landing() {
         <div className="absolute inset-0 z-0 bg-background/50 backdrop-blur-[2px]"></div>
         
         {/* Content */}
-        <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 relative z-10 w-full flex flex-col items-center text-center">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:py-20 sm:px-6 relative z-10 w-full flex flex-col items-center text-center">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             className="flex flex-col items-center max-w-4xl mx-auto"
           >
-            <h1 className="text-4xl font-extrabold leading-[1.15] tracking-tight sm:text-5xl lg:text-6xl text-foreground text-shadow-sm">
+            <h1 className="text-3xl sm:text-4xl font-extrabold leading-[1.15] tracking-tight lg:text-6xl text-foreground text-shadow-sm">
               Making Underground Coal Mining <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-500 drop-shadow-sm">Safer</span> Through Real-Time Ground Intelligence
             </h1>
             
-            <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
+            <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto px-2 sm:px-0">
               <Link
                 to="/system"
-                className="inline-flex items-center gap-2 rounded-xl bg-primary px-8 py-4 text-sm font-bold uppercase tracking-wider text-primary-foreground shadow-lg shadow-primary/25 transition-all hover:bg-primary/90 hover:-translate-y-1 hover:shadow-primary/40"
+                className="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-xl bg-primary px-8 py-4 text-sm font-bold uppercase tracking-wider text-primary-foreground shadow-lg shadow-primary/25 transition-all hover:bg-primary/90 hover:-translate-y-1 hover:shadow-primary/40"
               >
                 Proceed to System
-                <ArrowRight className="size-5" aria-hidden />
+                <ArrowRight className="size-5 shrink-0" aria-hidden />
               </Link>
             </div>
           </motion.div>
@@ -169,7 +169,7 @@ function Landing() {
       <section className="border-b bg-card">
         <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-extrabold sm:text-4xl tracking-tight">
+            <h2 className="text-2xl sm:text-3xl font-extrabold sm:text-4xl tracking-tight">
               ONE INTELLIGENCE LAYER. THREE DECISION VIEWS.
             </h2>
             <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">

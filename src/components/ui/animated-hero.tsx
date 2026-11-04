@@ -24,15 +24,15 @@ function Hero() {
   return (
     <div className="w-full">
       <div className="container mx-auto">
-        <div className="flex gap-8 py-20 lg:py-40 items-center justify-center flex-col">
+        <div className="flex gap-6 py-12 lg:py-40 items-center justify-center flex-col px-4">
           <div>
-            <Button variant="secondary" size="sm" className="gap-4">
+            <Button variant="secondary" size="sm" className="gap-4 text-center text-xs sm:text-sm">
               Smart India Hackathon 2026 · SIH26025{" "}
-              <MoveRight className="w-4 h-4" />
+              <MoveRight className="w-4 h-4 shrink-0" />
             </Button>
           </div>
           <div className="flex gap-4 flex-col">
-            <h1 className="text-5xl md:text-7xl max-w-2xl tracking-tighter text-center font-regular">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl max-w-2xl tracking-tighter text-center font-regular">
               <span className="text-foreground">Making coal mines</span>
               <span className="relative flex w-full justify-center overflow-hidden text-center md:pb-4 md:pt-1">
                 &nbsp;
@@ -60,19 +60,19 @@ function Hero() {
               </span>
             </h1>
 
-            <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
+            <p className="text-base md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
               AI-enabled, low-cost surface sensor network for continuous mine
               deformation monitoring, risk assessment and early warning in
               underground coal mines. Real-time ground intelligence for
               operators, planners and regulators.
             </p>
           </div>
-          <div className="flex flex-row gap-3">
-            <Button size="lg" className="gap-4" variant="outline">
-              Learn how it works <PhoneCall className="w-4 h-4" />
+          <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto px-2 sm:px-0">
+            <Button size="lg" className="gap-4 w-full sm:w-auto justify-center" variant="outline">
+              Learn how it works <PhoneCall className="w-4 h-4 shrink-0" />
             </Button>
-            <Button size="lg" className="gap-4">
-              Explore dashboards <MoveRight className="w-4 h-4" />
+            <Button size="lg" className="gap-4 w-full sm:w-auto justify-center">
+              Explore dashboards <MoveRight className="w-4 h-4 shrink-0" />
             </Button>
           </div>
         </div>

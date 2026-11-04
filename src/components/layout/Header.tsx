@@ -52,11 +52,16 @@ export function Header({
             <Bell className="size-4 text-white/70" />
             <span className="absolute top-1.5 right-1.5 size-1.5 rounded-full bg-red-500" />
           </button>
-          <button className="flex items-center gap-2 rounded px-2 py-1.5 hover:bg-white/10 transition-colors">
+          {/* User avatar — navigates to role switcher (acts as logout/profile on mobile) */}
+          <Link
+            to="/system"
+            className="flex items-center gap-2 rounded px-2 py-1.5 hover:bg-white/10 transition-colors"
+            title="Switch role"
+          >
             <span className="flex size-7 items-center justify-center rounded-full bg-white/20 text-white text-xs font-bold">
               <User className="size-3.5" />
             </span>
-          </button>
+          </Link>
         </div>
       </div>
     </header>
