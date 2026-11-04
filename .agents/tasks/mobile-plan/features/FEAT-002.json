@@ -1,0 +1,67 @@
+{
+  "id": "FEAT-002",
+  "type": "feat",
+  "description": "Tab content responsiveness: fix all operator, planner, and regulator tab components plus common components (DataTable scroll, AlertCard timestamp) for 320px–768px viewports. FEAT-001 must be complete before this runs (its DashboardShell pb-16 is required to avoid overlap). These tab components are independent of each other so all can be fixed in one feature.",
+  "status": "pending",
+  "steps": [
+    "1. MODIFY src/components/common/DataTable.tsx — wrap the outer `<div className={cn('overflow-hidden rounded-md border bg-card', className)}>` with a scroll wrapper: `<div className='overflow-x-auto'><div className={cn('overflow-hidden rounded-md border bg-card min-w-[600px]', className)}>...</div></div>`. This ensures every DataTable usage scrolls horizontally on mobile without touching call sites.",
+
+    "2. MODIFY src/components/common/AlertCard.tsx — add `shrink-0` to the timestamp span (`<span className='numeric-readout ml-auto text-xs text-muted-foreground'>`) to prevent layout collapse at narrow widths.",
+
+    "3. READ AND MODIFY src/components/operator/LiveMonitoringTab.tsx — (a) DeformationChart: change fixed `h-[360px]` to `h-[260px] sm:h-[360px]`. (b) Alerts section (the live alerts table near the bottom of the file): find the table wrapper — add `overflow-x-auto` if not already present. Read the full file to find the exact table element. (c) The outer tab root div uses `space-y-` — no height change needed since DashboardShell handles overflow.",
+
+    "4. READ AND MODIFY src/components/operator/AnalyticsTab.tsx — In the OFFLINE WORKFLOW block, the inner `flex items-center justify-between` rows contain `font-mono text-xs` items that overflow at 320px. Change those rows from `flex items-center gap-2` to `flex flex-wrap items-center gap-2`. Also add `shrink-0` to each `ArrowRight` icon in those rows.",
+
+    "5. MODIFY src/components/operator/RiskMapTab.tsx — Change `h-[calc(100vh-8rem)]` to `h-[calc(100dvh-10rem)] md:h-[calc(100vh-8rem)]` to account for the bottom nav (extra 2rem = ~32px) and use dvh for mobile browser chrome.",
+
+    "6. READ AND MODIFY src/components/operator/SensorNetworkTab.tsx — Find the Failure Monitoring section (likely a table listing failed/weak nodes). Add `overflow-x-auto` wrapper around any `<table>` elements in that section. The NetworkOverview (6 KPI cards) and TopologyMapAndDetail sections are already responsive per exploration.",
+
+    "7. MODIFY src/components/operator/ManagementTab.tsx — Add `overflow-x-auto` wrapper around the `<table>` element (currently a direct child of `rounded-xl border bg-card shadow-sm overflow-hidden` div). Change the wrapping div from `overflow-hidden` to preserve it but insert: `<div className='overflow-x-auto'><table ...>...</table></div>`.",
+
+    "8. READ AND MODIFY src/components/operator/ReportsTab.tsx — Read full file. Change the report cards container from `grid md:grid-cols-2 lg:grid-cols-3` to `grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6`.",
+
+    "9. READ AND MODIFY src/components/operator/BhurakshakAITab.tsx — Read full file first. The outer chat container likely uses `h-[calc(100vh-8rem)]`. Change to `h-[calc(100dvh-10rem)] md:h-[calc(100vh-8rem)]` to account for the bottom nav on mobile. Ensure the input bar at bottom doesn't need additional offset (DashboardShell's pb-16 handles it).",
+
+    "10. MODIFY src/components/planner/PlanningOverviewTab.tsx — Panel comparison table: wrap the `<table>` in `<div className='overflow-x-auto'>...</div>`.",
+
+    "11. READ AND MODIFY src/components/planner/MinePanelMapTab.tsx — Read the file. If it contains `h-[calc(100vh-8rem)]`, change to `h-[calc(100dvh-10rem)] md:h-[calc(100vh-8rem)]` (same as RiskMapTab pattern). Add `overflow-x-auto` to any table wrappers.",
+
+    "12. READ AND MODIFY src/components/planner/DeformationHistoryTab.tsx — Read the file. Ensure all Recharts chart containers use `<ResponsiveContainer width='100%' height={N}>`. If a tab bar / segmented control is present, add `overflow-x-auto whitespace-nowrap` to its wrapper. Add `overflow-x-auto` to any table wrappers.",
+
+    "13. READ AND MODIFY src/components/planner/MonitoringCoverageTab.tsx — Read the file. KPI grid: ensure there is a `grid-cols-2` (or `grid-cols-1`) default before `sm:grid-cols-X`. Add `overflow-x-auto` to any tables.",
+
+    "14. READ AND MODIFY src/components/planner/PanelComparisonTab.tsx — Read the file. The comparison table is the main content. Add `overflow-x-auto` wrapper around the table. Ensure KPI cards grid has a mobile-friendly default column count.",
+
+    "15. READ AND MODIFY src/components/planner/PlanningIntelligenceTab.tsx — Read the file. Apply same flex-wrap fix as AnalyticsTab if there are pipeline-step rows. Add `overflow-x-auto` to any tables.",
+
+    "16. READ AND MODIFY src/components/planner/RiskTrendsTab.tsx — Read the file. Ensure charts use ResponsiveContainer. If there are filter/tab rows, add `overflow-x-auto whitespace-nowrap flex-wrap`.",
+
+    "17. READ AND MODIFY src/components/planner/ReportsTab.tsx — Read the file. Change report card grid to `grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3`.",
+
+    "18. MODIFY src/components/regulator/NationalOverviewTab.tsx — (a) Filter buttons row: change `flex gap-2` to `flex flex-wrap gap-2`. (b) Map container: change `h-[500px]` to `h-[280px] sm:h-[500px]`. (c) Map legend absolute panel: add `text-[10px] sm:text-xs` to reduce text size on mobile. (d) KPI grid `grid gap-4 sm:grid-cols-2 xl:grid-cols-4` is already fine.",
+
+    "19. READ AND MODIFY src/components/regulator/MinePortfolioTab.tsx — Read the file. Add `overflow-x-auto` to any table wrappers. Ensure KPI grid has `grid-cols-1 sm:grid-cols-2` as default.",
+
+    "20. READ AND MODIFY src/components/regulator/MineDetailTab.tsx — Read the file. Any side-by-side `flex` layouts need `flex-col md:flex-row`. Add `overflow-x-auto` to tables.",
+
+    "21. READ AND MODIFY src/components/regulator/MonitoringHealthTab.tsx — Read the file. Apply same patterns: ResponsiveContainer for charts, overflow-x-auto for tables, flex-wrap for filter rows.",
+
+    "22. READ AND MODIFY src/components/regulator/ReviewCenterTab.tsx — Read the file. Side-by-side panels: ensure `flex-col md:flex-row`. Add `overflow-x-auto` to tables.",
+
+    "23. READ AND MODIFY src/components/regulator/RegulatorReportsTab.tsx — Read the file. Change report card grid to `grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3`."
+  ],
+  "acceptance_criteria": [
+    "All tab components render without horizontal overflow at 375px viewport width",
+    "Tables have horizontal scroll wrappers so small viewports can scroll table content",
+    "Charts use ResponsiveContainer and do not clip or overflow on mobile",
+    "Full-height tab pages (RiskMapTab, BhurakshakAITab, MinePanelMapTab) account for 64px bottom nav via 100dvh-10rem on mobile",
+    "npm run build exits 0 with no TypeScript errors",
+    "npm run lint passes with no new errors"
+  ],
+  "verification": [
+    "cd 'd:\\BHURAKSHAK GIT' && npm run build",
+    "cd 'd:\\BHURAKSHAK GIT' && npm run lint"
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}

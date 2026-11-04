@@ -1,0 +1,28 @@
+{
+  "id": "FEAT-001",
+  "type": "feat",
+  "description": "Shell infrastructure: create BottomNavBar component and update DashboardShell, Sidebar, Header. FloatingAIChat already accounts for the bottom nav (bottom: calc(4rem + ...)) — no changes needed there.",
+  "status": "pending",
+  "steps": [
+    "1. CREATE src/components/layout/BottomNavBar.tsx — new component. Props: { items: NavItem[], activeTab?: string, onTabChange?: (id: string) => void, accent: string }. Render: fixed bottom-0 left-0 right-0 z-40 h-16 bg-[#1a2035] border-t border-white/10. Visibility: `flex md:hidden` (hidden at md=768px+ where sidebar appears). Safe area: add `pb-[env(safe-area-inset-bottom)]` to the container. Show only the first 5 items from the `items` array (operator has 9; slice to 5 for bottom bar). Each item: a flex-col button with the icon (size-5) and a truncated label (text-[9px] mt-0.5 truncate). Active item: icon+text coloured with `accent`; inactive: `rgba(255,255,255,0.5)`. Tapping an item calls onTabChange(item.id). Export as named export. Import NavItem type from './Sidebar'.",
+    "2. MODIFY src/components/layout/DashboardShell.tsx — (a) Import BottomNavBar from './BottomNavBar'. (b) In the JSX, add `<BottomNavBar items={nav} activeTab={activeTab} onTabChange={onTabChange} accent={accent} />` after `<FloatingAIChat />` inside the outer div. (c) On `<main>`, add `pb-16 md:pb-0` to its className so content is never hidden behind the bottom nav. (d) Change page-header `px-6 py-4` to `px-4 sm:px-6 py-3 sm:py-4`. (e) Change h1 `text-xl font-bold` to `text-base sm:text-xl font-bold`. (f) Change the live-status pill `flex` to `hidden sm:flex`. (g) Change inner content area `p-6` to `p-3 sm:p-6`.",
+    "3. MODIFY src/components/layout/Sidebar.tsx — No CSS changes required. The aside already uses `hidden lg:flex` which correctly hides it on mobile and tablet. Confirm this is still correct after reading the current file — it is, per our exploration.",
+    "4. MODIFY src/components/layout/Header.tsx — (a) Change the BHURAKSHAK title span from `text-sm` to `text-[11px] sm:text-sm` to give more header room on 320px screens. (b) Change the 'Prototype · demo data' badge from `hidden md:inline` to `hidden lg:inline` to reclaim horizontal space on tablets where the sidebar is also hidden. The role label badge stays `hidden sm:inline-flex`."
+  ],
+  "acceptance_criteria": [
+    "BottomNavBar renders at the bottom of the screen on viewports below 768px",
+    "BottomNavBar is hidden (not rendered) at 768px and above",
+    "Active nav item in BottomNavBar is highlighted with the role accent colour",
+    "Tapping a nav item in BottomNavBar switches the active tab",
+    "Page content is not hidden behind the BottomNavBar (pb-16 on main)",
+    "FloatingAIChat button still sits above the BottomNavBar",
+    "Header does not overflow or clip on 320px width",
+    "npm run build exits 0 with no TypeScript errors"
+  ],
+  "verification": [
+    "cd 'd:\\BHURAKSHAK GIT' && npm run build",
+    "cd 'd:\\BHURAKSHAK GIT' && npm run lint"
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}

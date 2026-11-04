@@ -1,0 +1,33 @@
+{
+  "id": "FEAT-002",
+  "type": "feat",
+  "description": "Fix mobile responsiveness for all operator tab files and the shared DataTable component. FEAT-001 must be complete first (DashboardShell padding changes are required). Planner/Regulator tabs are independent of this FEAT.",
+  "status": "completed",
+  "steps": [
+    "MODIFY src/components/common/DataTable.tsx: Wrap the outer <div className='overflow-hidden rounded-md border bg-card'> with <div className='overflow-x-auto w-full'>. The inner div keeps its existing classes. This ensures all DataTable instances scroll horizontally on narrow screens.",
+
+    "MODIFY src/components/operator/AlertsTab.tsx: In the 'Corroborating Evidence Matrix' section, change 'grid grid-cols-2 gap-4' to 'grid grid-cols-1 sm:grid-cols-2 gap-4'. This prevents 2-column cramping on phones. No other changes needed — the tab already uses flex-col lg:flex-row for the main split.",
+
+    "MODIFY src/components/operator/AnalyticsTab.tsx: (a) Change the top header row from 'flex justify-between items-start' to 'flex flex-col sm:flex-row gap-3 items-start sm:items-center' so the 'BhuRakshak AI (PROTOTYPE)' badge wraps below the title on mobile. (b) The main pipeline/chart grid already uses 'grid lg:grid-cols-2' — no change needed.",
+
+    "MODIFY src/components/operator/ManagementTab.tsx: The panel management table has no overflow wrapper. Add <div className='overflow-x-auto'> around the <table> element. Keep the table as-is — adding overflow-x-auto is sufficient.",
+
+    "MODIFY src/components/operator/AlertCenterTab.tsx: No grid changes needed (already flex-col md:flex-row). The evidence grid inside uses 'grid md:grid-cols-2 gap-6' which is already responsive. However, the workflow-state action buttons row at the bottom: change 'mt-auto border-t pt-6 flex gap-3' to 'mt-auto border-t pt-6 flex flex-wrap gap-3' so buttons wrap on narrow screens.",
+
+    "VERIFY: The following operator files already have correct responsive classes and need NO changes: OverviewTab.tsx (grid-cols-2 sm:grid-cols-4, overflow-x-auto on table), LiveMonitoringTab.tsx (grid-cols-2 sm:grid-cols-3 lg:grid-cols-5, flex-col lg:flex-row on map section), SensorNetworkTab.tsx (grid-cols-2 sm:grid-cols-3 lg:grid-cols-6, flex-col lg:flex-row), RiskMapTab.tsx (full-height map, no grids), ReportsTab.tsx (grid md:grid-cols-2 lg:grid-cols-3), BhurakshakAITab.tsx (already mobile-first chat layout with grid-cols-1 sm:grid-cols-2 for suggestions)."
+  ],
+  "acceptance_criteria": [
+    "DataTable wraps horizontally on mobile without breaking layout",
+    "AlertsTab evidence grid shows 1 column on phone, 2 on tablet+",
+    "AnalyticsTab header wraps gracefully on narrow screens",
+    "ManagementTab panel table scrolls horizontally on mobile",
+    "AlertCenterTab action buttons wrap on narrow screens",
+    "npm run build completes with zero TypeScript errors"
+  ],
+  "verification": [
+    "Run: cd 'd:\\BHURAKSHAK GIT' && npm run build",
+    "Zero TypeScript errors and zero build errors"
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}
